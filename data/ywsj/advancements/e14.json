@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "event14": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "e14": 0
+            }
+          }
+        ],
+        "block": "minecraft:glass"
+      }
+    }
+  },
+  "rewards": {
+    "function": "ywsj:event/random_event/e14/s"
+  }
+}

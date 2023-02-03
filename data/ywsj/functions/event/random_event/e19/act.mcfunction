@@ -1,0 +1,1 @@
+title @a actionbar [{"text": "拾取一个铜锭","color": "light_purple"}]

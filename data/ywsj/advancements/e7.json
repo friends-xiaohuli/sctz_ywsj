@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "event7": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "e7": 0
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:iron_golem"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ywsj:event/random_event/e7/s"
+  }
+}

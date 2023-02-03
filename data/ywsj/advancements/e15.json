@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "event15": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "e15": 0
+            }
+          }
+        ],
+        "block": "minecraft:sand"
+      }
+    }
+  },
+  "rewards": {
+    "function": "ywsj:event/random_event/e15/s"
+  }
+}

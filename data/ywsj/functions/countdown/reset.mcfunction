@@ -1,0 +1,1 @@
+execute store result score cd countdown run bossbar get countdown max

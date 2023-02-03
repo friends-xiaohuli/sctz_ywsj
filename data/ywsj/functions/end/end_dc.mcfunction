@@ -1,0 +1,1 @@
+execute as @a at @s run execute if score @s dc matches 1 run function ywsj:end/end_spe

@@ -1,0 +1,1 @@
+title @a actionbar [{"text": "被爬行者炸死","color": "light_purple"}]

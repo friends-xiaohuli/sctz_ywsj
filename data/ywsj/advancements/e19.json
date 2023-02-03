@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "event19": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "e19": 0
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:copper_ingot"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ywsj:event/random_event/e19/s"
+  }
+}
