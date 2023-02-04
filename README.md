@@ -23,6 +23,7 @@
 在普通生存中，完成对应任务，任务间隔大于1分钟，事件点扣除至0（或其他选择条件）死亡，仅剩1人时游戏结束
 
 ![Snipaste_2023-02-04_20-54-21.png](https://s2.loli.net/2023/02/04/KeDiu7xOWV3wrGR.png)
+![Snipaste_2023-02-04_20-56-22.png](https://s2.loli.net/2023/02/04/5FdbhuDcWgrSTOk.png)
 
 ## 使用须知
 
