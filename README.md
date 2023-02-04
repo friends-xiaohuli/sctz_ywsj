@@ -22,7 +22,7 @@
 
 在普通生存中，完成对应任务，任务间隔大于1分钟，事件点扣除至0（或其他选择条件）死亡，仅剩1人时游戏结束
 
-![](https://cdn.jsdelivr.net/gh/friends-xiaohuli/Image-warehouse@main/Defaultpicture/20230204-bb7c6d.png)
+![][def]
 
 ## 使用须知
 
@@ -84,3 +84,5 @@
 --------------------
 
 非常感谢 @白狗虚虚 的帮助。
+
+[def]: https://cdn.jsdelivr.net/gh/friends-xiaohuli/Image-warehouse@main/Defaultpicture/20230204-bb7c6d.png
