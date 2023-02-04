@@ -22,7 +22,7 @@
 
 在普通生存中，完成对应任务，任务间隔大于1分钟，事件点扣除至0（或其他选择条件）死亡，仅剩1人时游戏结束
 
-![](https://cdn.jsdelivr.net/gh/friends-xiaohuli/Image-warehouse@main/Defaultpicture/20230204-19:22:57-Snipaste_2023-02-04_15-27-38-22eafc.png)
+![20230204-19:22:57-Snipaste_2023-02-04_15-27-38-22eafc.png](https://cdn.jsdelivr.net/gh/friends-xiaohuli/Image-warehouse@main/Defaultpicture/20230204-19:22:57-Snipaste_2023-02-04_15-27-38-22eafc.png)
 
 ## 使用须知
 
@@ -46,12 +46,15 @@
 界面化内测版本暂无，后续增加合并至一本书
 
 **设置书**：`/function ywsj:set/set_book`
+
 *游戏进行中无法获取
 
 **开始游戏**：`/function ywsj:start/start`
+
 *游戏开始后请不要再次尝试该指令，多次执行可能导致数据包运行错乱
 
 **设置初始事件点**：`/scoreboard players set s game <数（单位:次）>`
+
 *后续增加至设置书，游戏开始前生效，进行中无效
 
 ## 下载版本差异
