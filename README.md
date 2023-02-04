@@ -22,7 +22,7 @@
 
 在普通生存中，完成对应任务，任务间隔大于1分钟，事件点扣除至0（或其他选择条件）死亡，仅剩1人时游戏结束
 
-![][def]
+![Snipaste_2023-02-04_20-54-21.png](https://s2.loli.net/2023/02/04/KeDiu7xOWV3wrGR.png)
 
 ## 使用须知
 
@@ -79,10 +79,9 @@
 ## 反馈与联系
 
 1.[github-issues](https://github.com/friends-xiaohuli/sctz_ywsj/issues)
+
 2.[MC百科]()
 
 --------------------
 
 非常感谢 @白狗虚虚 的帮助。
-
-[def]: https://cdn.jsdelivr.net/gh/friends-xiaohuli/Image-warehouse@main/Defaultpicture/20230204-bb7c6d.png
