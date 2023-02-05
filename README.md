@@ -22,8 +22,8 @@
 
 在普通生存中，完成对应任务，任务间隔大于1分钟，事件点扣除至0（或其他选择条件）死亡，仅剩1人时游戏结束
 
-![Snipaste_2023-02-04_20-54-21.png](https://s2.loli.net/2023/02/04/KeDiu7xOWV3wrGR.png)
-![Snipaste_2023-02-04_20-56-22.png](https://s2.loli.net/2023/02/04/5FdbhuDcWgrSTOk.png)
+![Snipaste_2023-02-05_17-32-10.png](https://s2.loli.net/2023/02/05/kNYKaoeymbsAG8O.png)
+
 
 ## 使用须知
 
@@ -39,11 +39,16 @@
 
 *此数据包含单人判定，强制结束（后续视情况分支单人版）
 
+![Snipaste_2023-02-05_17-31-24.png](https://s2.loli.net/2023/02/05/lAuomg4W16PVJHG.png)
+
 ### 3.数据包自定义设置
 
 除重载数据包外，其余模式设定均可延续至下一轮
 
-*自定义情况见上图，暂定模式（后续视情况增加模式）
+*自定义情况见下图，暂定模式（后续视情况增加模式）
+
+![Snipaste_2023-02-04_20-54-21.png](https://s2.loli.net/2023/02/04/KeDiu7xOWV3wrGR.png)
+![Snipaste_2023-02-04_20-56-22.png](https://s2.loli.net/2023/02/04/5FdbhuDcWgrSTOk.png)
 
 ### 4.界面化
 
