@@ -89,7 +89,7 @@
 
 1.[github-issues](https://github.com/friends-xiaohuli/sctz_ywsj/issues)
 
-2.[MC百科]()
+2.[MC百科](https://www.mcmod.cn/class/9254.html)
 
 --------------------
 
