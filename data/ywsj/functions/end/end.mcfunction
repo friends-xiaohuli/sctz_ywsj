@@ -3,5 +3,5 @@ title @a title [{"text": "游戏结束","color": "dark_red"}]
 title @a subtitle [{"text": "游戏正常结束！","color": "dark_purple"}]
 scoreboard players set game game 0
 tellraw @a [{"selector":"@a[gamemode=survival]","color": "yellow","bold": true},{"text": "获得最后的胜利！","color": "green"}]
-execute as @a[gamemode=survival] at @s run tag @s add vic
+#放烟花
 function ywsj:end/end_fire

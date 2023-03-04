@@ -10,3 +10,5 @@ execute if score fired game matches 1 run gamerule fireDamage true
 execute if score fired game matches 0 run gamerule fireDamage false
 execute if score dms game matches 1 run gamerule doMobSpawning true
 execute if score dms game matches 0 run gamerule doMobSpawning false
+execute if score PVP game matches 1 run team modify player friendlyFire true
+execute if score PVP game matches 0 run team modify player friendlyFire false

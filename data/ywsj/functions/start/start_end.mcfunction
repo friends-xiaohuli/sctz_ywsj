@@ -1,5 +1,6 @@
 scoreboard players operation @a score = s game
-scoreboard objectives setdisplay sidebar score
+scoreboard players operation @a score_show = s game
+scoreboard objectives setdisplay sidebar score_show
 gamemode survival @a
 execute as @a at @s run spawnpoint @s ~ ~1 ~
 effect clear @a
