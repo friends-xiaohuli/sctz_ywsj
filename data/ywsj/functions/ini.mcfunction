@@ -1,3 +1,5 @@
+function ywsj:reload/ini
+function ywsj:gamebook/ini
 gamerule doImmediateRespawn true
 gamerule sendCommandFeedback false
 function ywsj:countdown/ini
