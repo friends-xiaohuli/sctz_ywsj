@@ -1,2 +1,2 @@
 function ywsj:player/tick_players
-function ywsj:player/spe_player
+execute if score game game matches 1 run gamemode spectator @a[team=!player]
