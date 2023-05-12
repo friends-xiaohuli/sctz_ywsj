@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "event40": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "e40": 0
+            }
+          }
+        ],
+        "block": "minecraft:crafting_table"
+      }
+    }
+  },
+  "rewards": {
+    "function": "ywsj:event/random_event/e40/s"
+  }
+}

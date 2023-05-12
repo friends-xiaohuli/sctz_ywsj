@@ -2,6 +2,7 @@ scoreboard players operation @a score = s game
 scoreboard players operation @a score_show = s game
 scoreboard objectives setdisplay sidebar score_show
 gamemode survival @a
+execute as @a at @s run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 obsidian
 execute as @a at @s run spawnpoint @s ~ ~1 ~
 effect clear @a
 effect give @a slowness 6 255

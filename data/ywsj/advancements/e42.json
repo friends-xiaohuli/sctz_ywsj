@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "event42": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "e42": 0
+            }
+          }
+        ],
+        "block": "minecraft:cobblestone_wall"
+      }
+    }
+  },
+  "rewards": {
+    "function": "ywsj:event/random_event/e42/s"
+  }
+}
