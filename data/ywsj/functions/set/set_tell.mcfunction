@@ -1,4 +1,4 @@
-tellraw @a [{"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n=========================","bold": true,"color": "dark_green"}]
+tellraw @a [{"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n=========================","bold": true,"color": "dark_green"}]
 tellraw @a [{"text": "【当前玩法设置】","bold": true,"color": "dark_green"}]
 execute if score dc game matches 1 run tellraw @a [{"text": "一条命：","bold": true,"color": "dark_green"},{"text":"开启","bold": true,"color": "green"}]
 execute if score dc game matches 0 run tellraw @a [{"text": "一条命：","bold": true,"color": "dark_green"},{"text":"关闭","bold": true,"color": "red"}]
