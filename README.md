@@ -56,9 +56,10 @@
 
 **设置书**：`/function ywsj:set/set_book`
 
+*游戏进行中无法获取
+
 ![Snipaste_2023-02-04_20-54-21.png](https://s2.loli.net/2023/02/04/KeDiu7xOWV3wrGR.png)
 
-*游戏进行中无法获取
 
 **设置初始事件点**：`/scoreboard players set s game <数（单位:次）>`
 
