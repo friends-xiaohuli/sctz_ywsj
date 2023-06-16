@@ -47,7 +47,7 @@
 
 *自定义情况见下图，暂定模式（后续视情况增加模式）
 
-![Snipaste_2023-02-04_20-54-21.png](https://s2.loli.net/2023/02/04/KeDiu7xOWV3wrGR.png)
+
 ![Snipaste_2023-02-04_20-56-22.png](https://s2.loli.net/2023/02/04/5FdbhuDcWgrSTOk.png)
 
 ### 4.界面化
@@ -56,9 +56,9 @@
 
 **设置书**：`/function ywsj:set/set_book`
 
-*游戏进行中无法获取
+![Snipaste_2023-02-04_20-54-21.png](https://s2.loli.net/2023/02/04/KeDiu7xOWV3wrGR.png)
 
-#V0.12版本已将开始游戏合并至设置书内
+*游戏进行中无法获取
 
 **设置初始事件点**：`/scoreboard players set s game <数（单位:次）>`
 
