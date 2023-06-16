@@ -123,6 +123,8 @@
 
 2.[MC百科](https://www.mcmod.cn/class/9254.html)
 
+3.[MCBBS](https://www.mcbbs.net/thread-1449276-1-1.html)
+
 --------------------
 
 鸣谢 @白狗虚虚 @希克 @Frazeli @Rain 和其他参与测试指导修改建议的小伙伴们！
