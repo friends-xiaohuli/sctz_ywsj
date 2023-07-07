@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event48": {
+    "event50": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -8,15 +8,17 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "e48": 0
+              "e50": 0
             }
           }
         ],
-        "block": "minecraft:copper_block"
+        "item": {
+          "tag":"ywsj:leaves"
+        }
       }
     }
   },
   "rewards": {
-    "function": "ywsj:event/random_event/e48/s"
+    "function": "ywsj:event/random_event/e50/s"
   }
 }
