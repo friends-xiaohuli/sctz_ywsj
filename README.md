@@ -12,6 +12,8 @@
 
 版本：JE[1.19.X]（测试环境：1.19.3，该数据包包含高版本任务道具）
 
+**注意：1.20.1实测数据包失效！请等待适配**
+
 协议：[GNU General Public License, version 2(GNU GPL-2)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
 
 ## 前情提要

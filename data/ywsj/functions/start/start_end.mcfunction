@@ -6,6 +6,7 @@ execute as @a at @s run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 obsidian
 execute as @a at @s run spawnpoint @s ~ ~1 ~
 effect clear @a
 time set day
+weather clear
 effect give @a slowness 6 255
 effect give @a resistance 6 255
 effect give @a invisibility 6 255
