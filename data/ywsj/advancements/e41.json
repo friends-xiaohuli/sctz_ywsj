@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event41": {
+    "e41": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:cobblestone_slab"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cobblestone_slab",
+            "properties": {}
+          }
+        ]
       }
     }
   },

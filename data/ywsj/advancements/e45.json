@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event45": {
+    "e45": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:coarse_dirt"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:coarse_dirt",
+            "properties": {}
+          }
+        ]
       }
     }
   },
@@ -20,3 +26,4 @@
     "function": "ywsj:event/random_event/e45/s"
   }
 }
+

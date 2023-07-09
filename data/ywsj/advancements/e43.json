@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event43": {
+    "e43": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:coal_block"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:coal_block",
+            "properties": {}
+          }
+        ]
       }
     }
   },
@@ -20,3 +26,4 @@
     "function": "ywsj:event/random_event/e43/s"
   }
 }
+

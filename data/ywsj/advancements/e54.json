@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event54": {
+    "e54": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:andesite_stairs"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:andesite_stairs",
+            "properties": {}
+          }
+        ]
       }
     }
   },
@@ -20,3 +26,4 @@
     "function": "ywsj:event/random_event/e54/s"
   }
 }
+

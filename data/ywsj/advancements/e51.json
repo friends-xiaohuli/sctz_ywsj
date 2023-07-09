@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event51": {
+    "e51": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:andesite"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:andesite",
+            "properties": {}
+          }
+        ]
       }
     }
   },

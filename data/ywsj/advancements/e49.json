@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event49": {
+    "e49": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:bookshelf"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:bookshelf",
+            "properties": {}
+          }
+        ]
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event48": {
+    "e48": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:copper_block"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:copper_block",
+            "properties": {}
+          }
+        ]
       }
     }
   },

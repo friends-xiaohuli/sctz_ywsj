@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event17": {
+    "e17": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:iron_block"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:iron_block",
+            "properties": {}
+          }
+        ]
       }
     }
   },

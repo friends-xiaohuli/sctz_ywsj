@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event56": {
+    "e56": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:barrel"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:barrel",
+            "properties": {}
+          }
+        ]
       }
     }
   },
@@ -20,3 +26,5 @@
     "function": "ywsj:event/random_event/e56/s"
   }
 }
+
+

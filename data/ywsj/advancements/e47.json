@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event47": {
+    "e47": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:composter"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:composter",
+            "properties": {}
+          }
+        ]
       }
     }
   },
@@ -20,3 +26,4 @@
     "function": "ywsj:event/random_event/e47/s"
   }
 }
+

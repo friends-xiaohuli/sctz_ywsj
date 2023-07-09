@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event36": {
+    "e36": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:grass_block"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:grass_block",
+            "properties": {}
+          }
+        ]
       }
     }
   },

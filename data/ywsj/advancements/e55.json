@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event55": {
+    "e55": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:anvil"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:anvil",
+            "properties": {}
+          }
+        ]
       }
     }
   },
@@ -20,3 +26,4 @@
     "function": "ywsj:event/random_event/e55/s"
   }
 }
+

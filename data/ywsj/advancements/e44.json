@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event44": {
+    "e44": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:clay"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:clay",
+            "properties": {}
+          }
+        ]
       }
     }
   },
@@ -20,3 +26,4 @@
     "function": "ywsj:event/random_event/e44/s"
   }
 }
+

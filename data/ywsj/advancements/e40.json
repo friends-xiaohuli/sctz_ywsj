@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event40": {
+    "e40": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:crafting_table"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:crafting_table",
+            "properties": {}
+          }
+        ]
       }
     }
   },

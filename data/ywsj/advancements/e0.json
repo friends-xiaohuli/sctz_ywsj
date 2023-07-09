@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event0": {
+    "e0": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:stone"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:stone",
+            "properties": {}
+          }
+        ]
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event52": {
+    "e52": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:andesite_slab"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:andesite_slab",
+            "properties": {}
+          }
+        ]
       }
     }
   },
@@ -20,3 +26,4 @@
     "function": "ywsj:event/random_event/e52/s"
   }
 }
+

@@ -1,7 +1,7 @@
 {
   "criteria": {
-    "event16": {
-      "trigger": "minecraft:placed_block",
+    "e16": {
+      "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": [
           {
@@ -12,11 +12,10 @@
             }
           }
         ],
-        "block": "minecraft:water",
-        "item": {
-          "items": [
-            "minecraft:water_bucket"
-          ]
+        "distance": {
+          "y": {
+            "min": 10
+          }
         }
       }
     }

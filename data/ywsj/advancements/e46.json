@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event46": {
+    "e46": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:comparator"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:comparator",
+            "properties": {}
+          }
+        ]
       }
     }
   },
@@ -20,3 +26,4 @@
     "function": "ywsj:event/random_event/e46/s"
   }
 }
+

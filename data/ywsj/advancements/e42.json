@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event42": {
+    "e42": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:cobblestone_wall"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cobblestone_wall",
+            "properties": {}
+          }
+        ]
       }
     }
   },

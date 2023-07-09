@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event15": {
+    "e15": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -12,7 +12,13 @@
             }
           }
         ],
-        "block": "minecraft:sand"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:sand",
+            "properties": {}
+          }
+        ]
       }
     }
   },

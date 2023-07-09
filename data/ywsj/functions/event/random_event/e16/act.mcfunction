@@ -1,1 +1,1 @@
-title @a actionbar [{"text": "用水桶到出一格水","color": "light_purple"}]
+title @a actionbar [{"text": "一次性掉落超过10格","color": "light_purple"}]
