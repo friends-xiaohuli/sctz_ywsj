@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "e64": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "e64": 0
+            }
+          }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:iron_door",
+            "properties": {}
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ywsj:event/random_event/e64/s"
+  }
+}

@@ -14,7 +14,7 @@
         ],
         "items": [
           {
-            "tag": "ywsj:log",
+            "tag": "minecraft:logs",
             "count": {
               "min": 33
             }

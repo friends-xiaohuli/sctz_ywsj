@@ -14,9 +14,9 @@
         ],
         "items": [
           {
-            "tag": "ywsj:wood",
+            "tag": "minecraft:planks",
             "count": {
-              "min": 17
+              "min": 65
             }
           }
         ]
