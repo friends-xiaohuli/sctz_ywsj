@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "e59": {
+    "e65": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": [
@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "e59": 0
+              "e65": 0
             }
           }
         ],
@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "ywsj:event/random_event/e59/s"
+    "function": "ywsj:event/random_event/e65/s"
   }
 }

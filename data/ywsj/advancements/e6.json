@@ -15,9 +15,7 @@
         "items": [
           {
             "tag": "minecraft:planks",
-            "count": {
-              "min": 65
-            }
+            "count": 64
           }
         ]
       }

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "event11": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "e79": 0
+            }
+          }
+        ],
+        "damage": {
+          "dealt": {
+            "max": 5
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ywsj:event/random_event/e79/s"
+  }
+}

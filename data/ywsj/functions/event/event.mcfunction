@@ -1,6 +1,7 @@
 function ywsj:random/randoming
 tag @a remove es
 tag @a remove ef
+function ywsj:event/advancements_reset
 execute if score r random matches 0 run function ywsj:event/random_event/e0/ini
 execute if score r random matches 1 run function ywsj:event/random_event/e1/ini
 execute if score r random matches 2 run function ywsj:event/random_event/e2/ini

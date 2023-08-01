@@ -1,0 +1,1 @@
+title @a actionbar [{"text": "玩家被远程射中","color": "light_purple"}]

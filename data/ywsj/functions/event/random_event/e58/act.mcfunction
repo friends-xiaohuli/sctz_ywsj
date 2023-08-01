@@ -1,1 +1,1 @@
-title @a actionbar [{"text": "放置一个信标","color": "light_purple"}]
+title @a actionbar [{"text": "放置一个营火","color": "light_purple"}]
