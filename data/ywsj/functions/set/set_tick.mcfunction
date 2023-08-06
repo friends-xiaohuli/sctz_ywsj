@@ -4,11 +4,11 @@ execute if score psp game matches 1 run gamerule playersSleepingPercentage 100
 execute if score psp game matches 0 run gamerule playersSleepingPercentage 200
 execute if score nr game matches 1 run gamerule naturalRegeneration true
 execute if score nr game matches 0 run gamerule naturalRegeneration false
-execute if score falld game matches 1 run gamerule fallDamage true
-execute if score falld game matches 0 run gamerule fallDamage false
-execute if score fired game matches 1 run gamerule fireDamage true
-execute if score fired game matches 0 run gamerule fireDamage false
-execute if score dms game matches 1 run gamerule doMobSpawning true
-execute if score dms game matches 0 run gamerule doMobSpawning false
 execute if score PVP game matches 1 run team modify player friendlyFire true
 execute if score PVP game matches 0 run team modify player friendlyFire false
+execute if score glow game matches 1 run effect give @a glowing infinite 255 true
+execute if score glow game matches 0 run effect clear @a glowing
+#为保证部分事件可完成锁定部分rule
+gamerule fallDamage true
+gamerule fireDamage true
+gamerule doMobSpawning true

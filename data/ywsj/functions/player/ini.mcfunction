@@ -4,4 +4,4 @@ scoreboard objectives add pregame_play dummy
 scoreboard players reset * pregame_play
 team add player
 team modify player color yellow
-team modify player prefix "[幸存者]"
+team modify player prefix ""
