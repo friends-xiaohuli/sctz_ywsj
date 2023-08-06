@@ -1,2 +1,2 @@
 scoreboard objectives add random dummy
-scoreboard players set max random 81
+scoreboard players set max random 92

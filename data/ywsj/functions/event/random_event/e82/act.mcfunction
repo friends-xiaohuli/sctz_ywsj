@@ -1,0 +1,1 @@
+title @a actionbar [{"text": "站在石头上","color": "light_purple"}]

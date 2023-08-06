@@ -10,4 +10,5 @@ function ywsj:end/ini
 function ywsj:set/ini
 function ywsj:player/ini
 function ywsj:score/ini
+function ywsj:event/advancements_reset
 schedule clear ywsj:tick
