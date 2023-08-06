@@ -55,19 +55,18 @@
 
 *自定义情况见下图，暂定模式（后续视情况增加模式）
 
-
 ![Snipaste_2023-02-04_20-56-22.png](https://s2.loli.net/2023/02/04/5FdbhuDcWgrSTOk.png)
 
 ### 4.界面化
 
-界面化内测版本暂无，后续增加合并至一本书
 
 **设置书**：`/function ywsj:set/set_book`
 
 *游戏进行中无法获取
 
-![Snipaste_2023-02-04_20-54-21.png](https://s2.loli.net/2023/02/04/KeDiu7xOWV3wrGR.png)
+![Snipaste_2023-08-06_18-03-17.png](https://s2.loli.net/2023/08/06/o2wGXtQHPMnYjSU.png)
 
+***如遇书本排版错位等问题，请在“语言”中打开“强制使用Unicode字体”**
 
 **设置初始事件点**：`/scoreboard players set s game <数（单位:次）>`
 
