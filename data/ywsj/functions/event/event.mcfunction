@@ -1,117 +1,111 @@
 function ywsj:random/randoming
-tag @a remove es
-tag @a remove ef
-function ywsj:event/advancements_reset
-execute if score r random matches 0 run function ywsj:event/random_event/e0/ini
-execute if score r random matches 1 run function ywsj:event/random_event/e1/ini
-execute if score r random matches 2 run function ywsj:event/random_event/e2/ini
-execute if score r random matches 3 run function ywsj:event/random_event/e3/ini
-execute if score r random matches 4 run function ywsj:event/random_event/e4/ini
-execute if score r random matches 5 run function ywsj:event/random_event/e5/ini
-execute if score r random matches 6 run function ywsj:event/random_event/e6/ini
-execute if score r random matches 7 run function ywsj:event/random_event/e7/ini
-execute if score r random matches 8 run function ywsj:event/random_event/e8/ini
-execute if score r random matches 9 run function ywsj:event/random_event/e9/ini
-execute if score r random matches 10 run function ywsj:event/random_event/e10/ini
-execute if score r random matches 11 run function ywsj:event/random_event/e11/ini
-execute if score r random matches 12 run function ywsj:event/random_event/e12/ini
-execute if score r random matches 13 run function ywsj:event/random_event/e13/ini
-execute if score r random matches 14 run function ywsj:event/random_event/e14/ini
-execute if score r random matches 15 run function ywsj:event/random_event/e15/ini
-execute if score r random matches 16 run function ywsj:event/random_event/e16/ini
-execute if score r random matches 17 run function ywsj:event/random_event/e17/ini
-execute if score r random matches 18 run function ywsj:event/random_event/e18/ini
-execute if score r random matches 19 run function ywsj:event/random_event/e19/ini
-execute if score r random matches 20 run function ywsj:event/random_event/e20/ini
-execute if score r random matches 21 run function ywsj:event/random_event/e21/ini
-execute if score r random matches 22 run function ywsj:event/random_event/e22/ini
-execute if score r random matches 23 run function ywsj:event/random_event/e23/ini
-execute if score r random matches 24 run function ywsj:event/random_event/e24/ini
-execute if score r random matches 25 run function ywsj:event/random_event/e25/ini
-execute if score r random matches 26 run function ywsj:event/random_event/e26/ini
-execute if score r random matches 27 run function ywsj:event/random_event/e27/ini
-execute if score r random matches 28 run function ywsj:event/random_event/e28/ini
-execute if score r random matches 29 run function ywsj:event/random_event/e29/ini
-execute if score r random matches 30 run function ywsj:event/random_event/e30/ini
-execute if score r random matches 31 run function ywsj:event/random_event/e31/ini
-execute if score r random matches 32 run function ywsj:event/random_event/e32/ini
-execute if score r random matches 33 run function ywsj:event/random_event/e33/ini
-execute if score r random matches 34 run function ywsj:event/random_event/e34/ini
-execute if score r random matches 35 run function ywsj:event/random_event/e35/ini
-execute if score r random matches 36 run function ywsj:event/random_event/e36/ini
-execute if score r random matches 37 run function ywsj:event/random_event/e37/ini
-execute if score r random matches 38 run function ywsj:event/random_event/e38/ini
-execute if score r random matches 39 run function ywsj:event/random_event/e39/ini
-execute if score r random matches 40 run function ywsj:event/random_event/e40/ini
-execute if score r random matches 41 run function ywsj:event/random_event/e41/ini
-execute if score r random matches 42 run function ywsj:event/random_event/e42/ini
-execute if score r random matches 43 run function ywsj:event/random_event/e43/ini
-execute if score r random matches 44 run function ywsj:event/random_event/e44/ini
-execute if score r random matches 45 run function ywsj:event/random_event/e45/ini
-execute if score r random matches 46 run function ywsj:event/random_event/e46/ini
-execute if score r random matches 47 run function ywsj:event/random_event/e47/ini
-execute if score r random matches 48 run function ywsj:event/random_event/e48/ini
-execute if score r random matches 49 run function ywsj:event/random_event/e49/ini
-execute if score r random matches 50 run function ywsj:event/random_event/e50/ini
-execute if score r random matches 51 run function ywsj:event/random_event/e51/ini
-execute if score r random matches 52 run function ywsj:event/random_event/e52/ini
-execute if score r random matches 53 run function ywsj:event/random_event/e53/ini
-execute if score r random matches 54 run function ywsj:event/random_event/e54/ini
-execute if score r random matches 55 run function ywsj:event/random_event/e55/ini
-execute if score r random matches 56 run function ywsj:event/random_event/e56/ini
-execute if score r random matches 57 run function ywsj:event/random_event/e57/ini
-execute if score r random matches 58 run function ywsj:event/random_event/e58/ini
-execute if score r random matches 59 run function ywsj:event/random_event/e59/ini
-execute if score r random matches 60 run function ywsj:event/random_event/e60/ini
-execute if score r random matches 61 run function ywsj:event/random_event/e61/ini
-execute if score r random matches 62 run function ywsj:event/random_event/e62/ini
-execute if score r random matches 63 run function ywsj:event/random_event/e63/ini
-execute if score r random matches 64 run function ywsj:event/random_event/e64/ini
-execute if score r random matches 65 run function ywsj:event/random_event/e65/ini
-execute if score r random matches 66 run function ywsj:event/random_event/e66/ini
-execute if score r random matches 67 run function ywsj:event/random_event/e67/ini
-execute if score r random matches 68 run function ywsj:event/random_event/e68/ini
-execute if score r random matches 69 run function ywsj:event/random_event/e69/ini
-execute if score r random matches 70 run function ywsj:event/random_event/e70/ini
-execute if score r random matches 71 run function ywsj:event/random_event/e71/ini
-execute if score r random matches 72 run function ywsj:event/random_event/e72/ini
-execute if score r random matches 73 run function ywsj:event/random_event/e73/ini
-execute if score r random matches 74 run function ywsj:event/random_event/e74/ini
-execute if score r random matches 75 run function ywsj:event/random_event/e75/ini
-execute if score r random matches 76 run function ywsj:event/random_event/e76/ini
-execute if score r random matches 77 run function ywsj:event/random_event/e77/ini
-execute if score r random matches 78 run function ywsj:event/random_event/e78/ini
-execute if score r random matches 79 run function ywsj:event/random_event/e79/ini
-execute if score r random matches 80 run function ywsj:event/random_event/e80/ini
-execute if score r random matches 81 run function ywsj:event/random_event/e81/ini
-execute if score r random matches 82 run function ywsj:event/random_event/e82/ini
-execute if score r random matches 83 run function ywsj:event/random_event/e83/ini
-execute if score r random matches 84 run function ywsj:event/random_event/e84/ini
-execute if score r random matches 85 run function ywsj:event/random_event/e85/ini
-execute if score r random matches 86 run function ywsj:event/random_event/e86/ini
-execute if score r random matches 87 run function ywsj:event/random_event/e87/ini
-execute if score r random matches 88 run function ywsj:event/random_event/e88/ini
-execute if score r random matches 89 run function ywsj:event/random_event/e89/ini
-execute if score r random matches 90 run function ywsj:event/random_event/e90/ini
-execute if score r random matches 91 run function ywsj:event/random_event/e91/ini
-execute if score r random matches 92 run function ywsj:event/random_event/e92/ini
-execute if score r random matches 93 run function ywsj:event/random_event/e93/ini
-execute if score r random matches 94 run function ywsj:event/random_event/e94/ini
-execute if score r random matches 95 run function ywsj:event/random_event/e95/ini
-execute if score r random matches 96 run function ywsj:event/random_event/e96/ini
-execute if score r random matches 97 run function ywsj:event/random_event/e97/ini
-execute if score r random matches 98 run function ywsj:event/random_event/e98/ini
-execute if score r random matches 99 run function ywsj:event/random_event/e99/ini
-execute if score r random matches 100 run function ywsj:event/random_event/e100/ini
-execute if score r random matches 101 run function ywsj:event/random_event/e101/ini
-execute if score r random matches 102 run function ywsj:event/random_event/e102/ini
-execute if score r random matches 103 run function ywsj:event/random_event/e103/ini
-execute if score r random matches 104 run function ywsj:event/random_event/e104/ini
-execute if score r random matches 105 run function ywsj:event/random_event/e105/ini
-execute if score r random matches 106 run function ywsj:event/random_event/e106/ini
-execute if score r random matches 107 run function ywsj:event/random_event/e107/ini
-execute if score r random matches 108 run function ywsj:event/random_event/e108/ini
-execute if score r random matches 109 run function ywsj:event/random_event/e109/ini
-execute if score r random matches 110 run function ywsj:event/random_event/e110/ini
-execute if score r random matches 111 run function ywsj:event/random_event/e111/ini
-execute if score r random matches 112 run function ywsj:event/random_event/e112/ini
+function ywsj:event/reset
+#刷随机
+execute if score r random matches 0 run scoreboard players set e e0 1
+execute if score r random matches 1 run scoreboard players set e e1 1
+execute if score r random matches 2 run scoreboard players set e e2 1
+execute if score r random matches 3 run scoreboard players set e e3 1
+execute if score r random matches 4 run scoreboard players set e e4 1
+execute if score r random matches 5 run scoreboard players set e e5 1
+execute if score r random matches 6 run scoreboard players set e e6 1
+execute if score r random matches 7 run scoreboard players set e e7 1
+execute if score r random matches 8 run scoreboard players set e e8 1
+execute if score r random matches 9 run scoreboard players set e e9 1
+execute if score r random matches 10 run scoreboard players set e e10 1
+execute if score r random matches 11 run scoreboard players set e e11 1
+execute if score r random matches 12 run scoreboard players set e e12 1
+execute if score r random matches 13 run scoreboard players set e e13 1
+execute if score r random matches 14 run scoreboard players set e e14 1
+execute if score r random matches 15 run scoreboard players set e e15 1
+execute if score r random matches 16 run scoreboard players set e e16 1
+execute if score r random matches 17 run scoreboard players set e e17 1
+execute if score r random matches 18 run scoreboard players set e e18 1
+execute if score r random matches 19 run scoreboard players set e e19 1
+execute if score r random matches 20 run scoreboard players set e e20 1
+execute if score r random matches 21 run scoreboard players set e e21 1
+execute if score r random matches 22 run scoreboard players set e e22 1
+execute if score r random matches 23 run scoreboard players set e e23 1
+execute if score r random matches 24 run scoreboard players set e e24 1
+execute if score r random matches 25 run scoreboard players set e e25 1
+execute if score r random matches 26 run scoreboard players set e e26 1
+execute if score r random matches 27 run scoreboard players set e e27 1
+execute if score r random matches 28 run scoreboard players set e e28 1
+execute if score r random matches 29 run scoreboard players set e e29 1
+execute if score r random matches 30 run scoreboard players set e e30 1
+execute if score r random matches 31 run scoreboard players set e e31 1
+execute if score r random matches 32 run scoreboard players set e e32 1
+execute if score r random matches 33 run scoreboard players set e e33 1
+execute if score r random matches 34 run scoreboard players set e e34 1
+execute if score r random matches 35 run scoreboard players set e e35 1
+execute if score r random matches 36 run scoreboard players set e e36 1
+execute if score r random matches 37 run scoreboard players set e e37 1
+execute if score r random matches 38 run scoreboard players set e e38 1
+execute if score r random matches 39 run scoreboard players set e e39 1
+execute if score r random matches 40 run scoreboard players set e e40 1
+execute if score r random matches 41 run scoreboard players set e e41 1
+execute if score r random matches 42 run scoreboard players set e e42 1
+execute if score r random matches 43 run scoreboard players set e e43 1
+execute if score r random matches 44 run scoreboard players set e e44 1
+execute if score r random matches 45 run scoreboard players set e e45 1
+execute if score r random matches 46 run scoreboard players set e e46 1
+execute if score r random matches 47 run scoreboard players set e e47 1
+execute if score r random matches 48 run scoreboard players set e e48 1
+execute if score r random matches 49 run scoreboard players set e e49 1
+execute if score r random matches 50 run scoreboard players set e e50 1
+execute if score r random matches 51 run scoreboard players set e e51 1
+execute if score r random matches 52 run scoreboard players set e e52 1
+execute if score r random matches 53 run scoreboard players set e e53 1
+execute if score r random matches 54 run scoreboard players set e e54 1
+execute if score r random matches 55 run scoreboard players set e e55 1
+execute if score r random matches 56 run scoreboard players set e e56 1
+execute if score r random matches 57 run scoreboard players set e e57 1
+execute if score r random matches 58 run scoreboard players set e e58 1
+execute if score r random matches 59 run scoreboard players set e e59 1
+execute if score r random matches 60 run scoreboard players set e e60 1
+execute if score r random matches 61 run scoreboard players set e e61 1
+execute if score r random matches 62 run scoreboard players set e e62 1
+execute if score r random matches 63 run scoreboard players set e e63 1
+execute if score r random matches 64 run scoreboard players set e e64 1
+execute if score r random matches 65 run scoreboard players set e e65 1
+execute if score r random matches 66 run scoreboard players set e e66 1
+execute if score r random matches 67 run scoreboard players set e e67 1
+execute if score r random matches 68 run scoreboard players set e e68 1
+execute if score r random matches 69 run scoreboard players set e e69 1
+execute if score r random matches 70 run scoreboard players set e e70 1
+execute if score r random matches 71 run scoreboard players set e e71 1
+execute if score r random matches 72 run scoreboard players set e e72 1
+execute if score r random matches 73 run scoreboard players set e e73 1
+execute if score r random matches 74 run scoreboard players set e e74 1
+execute if score r random matches 75 run scoreboard players set e e75 1
+execute if score r random matches 76 run scoreboard players set e e76 1
+execute if score r random matches 77 run scoreboard players set e e77 1
+execute if score r random matches 78 run scoreboard players set e e78 1
+execute if score r random matches 79 run scoreboard players set e e79 1
+execute if score r random matches 80 run scoreboard players set e e80 1
+execute if score r random matches 81 run scoreboard players set e e81 1
+execute if score r random matches 82 run scoreboard players set e e82 1
+execute if score r random matches 83 run scoreboard players set e e83 1
+execute if score r random matches 84 run scoreboard players set e e84 1
+execute if score r random matches 85 run scoreboard players set e e85 1
+execute if score r random matches 86 run scoreboard players set e e86 1
+execute if score r random matches 87 run scoreboard players set e e87 1
+execute if score r random matches 88 run scoreboard players set e e88 1
+execute if score r random matches 89 run scoreboard players set e e89 1
+execute if score r random matches 90 run scoreboard players set e e90 1
+execute if score r random matches 91 run scoreboard players set e e91 1
+execute if score r random matches 92 run scoreboard players set e e92 1
+execute if score r random matches 93 run scoreboard players set e e93 1
+execute if score r random matches 94 run scoreboard players set e e94 1
+execute if score r random matches 95 run scoreboard players set e e95 1
+execute if score r random matches 96 run scoreboard players set e e96 1
+execute if score r random matches 97 run scoreboard players set e e97 1
+execute if score r random matches 98 run scoreboard players set e e98 1
+execute if score r random matches 99 run scoreboard players set e e99 1
+execute if score r random matches 100 run scoreboard players set e e100 1
+execute if score r random matches 101 run scoreboard players set e e101 1
+execute if score r random matches 102 run scoreboard players set e e102 1
+execute if score r random matches 103 run scoreboard players set e e103 1
+execute if score r random matches 104 run scoreboard players set e e104 1
+execute if score r random matches 105 run scoreboard players set e e105 1
+#执行
+function ywsj:event/random_event/ini

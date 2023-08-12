@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "ywsj:event/random_event/e32/s"
+    "function": "ywsj:event/random_event/s"
   }
 }

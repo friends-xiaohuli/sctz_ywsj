@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "ywsj:event/random_event/e5/s"
+    "function": "ywsj:event/random_event/s"
   }
 }

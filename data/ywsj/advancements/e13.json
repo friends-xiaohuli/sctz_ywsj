@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "ywsj:event/random_event/e13/s"
+    "function": "ywsj:event/random_event/s"
   }
 }

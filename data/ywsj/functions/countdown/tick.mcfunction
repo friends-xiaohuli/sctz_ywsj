@@ -1,6 +1,6 @@
 #同步计分板and倒计时
 execute store result bossbar countdown value run scoreboard players get cd countdown
-execute if score cd countdown matches 1.. run scoreboard players remove cd countdown 1
+execute if score cd countdown matches 0.. run scoreboard players remove cd countdown 1
 #倒计时颜色
 execute if score cd countdown matches 101.. run bossbar set countdown color green
 execute if score cd countdown matches 41..100 run bossbar set countdown color yellow
@@ -22,5 +22,3 @@ execute if score cd countdown matches 300 run title @a title {"text":"倒计时1
 execute if score cd countdown matches 280 run title @a title {"text": ""}
 execute if score cd countdown matches 100 run title @a title {"text":"倒计时5秒","color": "yellow","bold": true}
 execute if score cd countdown matches 80 run title @a title {"text": ""}
-#结束
-execute if score cd countdown matches 0 run function ywsj:countdown/end

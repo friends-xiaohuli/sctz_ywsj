@@ -124,6 +124,8 @@
 
 ## 反馈与联系
 
+"从0.27版本开始，反馈事件错误可直接反馈位于事件结束后的编号进行提交"
+
 1.[github-issues](https://github.com/friends-xiaohuli/sctz_ywsj/issues)
 
 2.[MC百科](https://www.mcmod.cn/class/9254.html)

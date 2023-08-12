@@ -1,0 +1,1 @@
+function ywsj:debug/debug
