@@ -1,4 +1,4 @@
-#事件初始化:注册积分榜
+#region 事件初始化:注册积分榜
 scoreboard objectives add e0 dummy
 scoreboard objectives add e1 dummy
 scoreboard objectives add e2 dummy
@@ -109,11 +109,12 @@ scoreboard objectives add e106 dummy
 scoreboard objectives add e107 dummy
 scoreboard objectives add e108 dummy
 scoreboard objectives add e109 dummy
-
+#endregion
 #常规初始化
 scoreboard objectives add time dummy
 scoreboard players set sptime time 0
 scoreboard players set time time 0
+scoreboard players set event time 0
 scoreboard objectives add end dummy
 scoreboard players set s end 0
 scoreboard players set f end 0

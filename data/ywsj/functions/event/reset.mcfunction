@@ -3,7 +3,7 @@ tag @a remove es
 tag @a remove ef
 #重置统计积分榜
 scoreboard players reset * end 
-#清空成就
+#region 清空成就
 advancement revoke @a only ywsj:e0
 advancement revoke @a only ywsj:e1
 advancement revoke @a only ywsj:e2
@@ -208,7 +208,8 @@ advancement revoke @a only ywsj:e200
 advancement revoke @a only ywsj:e201
 advancement revoke @a only ywsj:e202
 advancement revoke @a only ywsj:e203
-#清空积分榜
+#endregion
+#region清空积分榜
 scoreboard players set @a e0 0
 scoreboard players set @a e1 0
 scoreboard players set @a e2 0
@@ -319,3 +320,4 @@ scoreboard players set @a e106 0
 scoreboard players set @a e107 0
 scoreboard players set @a e108 0
 scoreboard players set @a e109 0
+#endregion
