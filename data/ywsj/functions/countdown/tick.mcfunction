@@ -8,7 +8,7 @@ execute if score cd countdown matches 1..40 run bossbar set countdown color red
 #展示倒计时给所有人
 bossbar set countdown players @a
 #显示and隐藏
-execute if score cd countdown matches 0 run bossbar set countdown visible false
+execute if score cd countdown matches ..0 run bossbar set countdown visible false
 execute if score cd countdown matches 1.. run bossbar set countdown visible true
 #倒计时显示
 execute if score cd countdown matches 101.. run bossbar set countdown name {"text":"倒计时ing...","color": "green","bold": true}

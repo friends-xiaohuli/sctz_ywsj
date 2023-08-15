@@ -1,1 +1,0 @@
-title @a actionbar [{"text": "食用一个烤马铃薯","color": "light_purple"}]

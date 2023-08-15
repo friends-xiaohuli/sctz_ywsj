@@ -1,1 +1,0 @@
-title @a actionbar [{"text": "对自己造成一次性不大于5点的伤害","color": "light_purple"}]

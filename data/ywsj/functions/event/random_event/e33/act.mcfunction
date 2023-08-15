@@ -1,1 +1,0 @@
-title @a actionbar [{"text": "一次性对玩家造成大于5点的伤害","color": "light_purple"}]

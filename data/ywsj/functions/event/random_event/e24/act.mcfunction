@@ -1,1 +1,0 @@
-title @a actionbar [{"text": "拾取任意按钮","color": "light_purple"}]

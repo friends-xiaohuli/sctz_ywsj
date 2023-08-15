@@ -1,1 +1,0 @@
-title @a actionbar [{"text": "击杀一只苦力怕","color": "light_purple"}]

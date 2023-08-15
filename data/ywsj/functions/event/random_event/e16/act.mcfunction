@@ -1,1 +1,0 @@
-title @a actionbar [{"text": "一次性掉落超过10格","color": "light_purple"}]

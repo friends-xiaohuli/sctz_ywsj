@@ -1,1 +1,0 @@
-title @a actionbar [{"text": "对自己造成爆炸伤害","color": "light_purple"}]
