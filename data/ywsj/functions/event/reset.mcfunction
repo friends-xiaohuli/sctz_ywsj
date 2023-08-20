@@ -2,7 +2,8 @@
 tag @a remove es
 tag @a remove ef
 #重置统计积分榜
-scoreboard players reset * end 
+scoreboard players set s end 0
+scoreboard players set f end 0
 #region 清空成就
 advancement revoke @a only ywsj:e0
 advancement revoke @a only ywsj:e1
