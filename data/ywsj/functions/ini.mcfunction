@@ -12,4 +12,3 @@ function ywsj:player/ini
 function ywsj:score/ini
 function ywsj:event/reset
 function ywsj:debug/ini
-schedule clear ywsj:tick

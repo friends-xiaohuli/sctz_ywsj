@@ -1,7 +1,7 @@
 execute if score e e0 matches 1 run title @a actionbar [{"text": "放置一个石头","color": "light_purple"}]
 execute if score e e1 matches 1 run title @a actionbar [{"text": "物品栏仅包含1组堆叠圆石其余位置留空(捡起刷新判定)","color": "light_purple"}]
 execute if score e e2 matches 1 run title @a actionbar [{"text": "击败一只僵尸","color": "light_purple"}]
-execute if score e e3 matches 1 run title @a actionbar [{"text": "击败一只苦力怕","color": "light_purple"}]
+execute if score e e3 matches 1 run title @a actionbar [{"text": "被爬行者炸死","color": "light_purple"}]
 execute if score e e4 matches 1 run title @a actionbar [{"text": "食用一个苹果","color": "light_purple"}]
 execute if score e e5 matches 1 run title @a actionbar [{"text": "繁殖一只绵羊","color": "light_purple"}]
 execute if score e e6 matches 1 run title @a actionbar [{"text": "物品栏包含一组堆叠的任意木板(捡起刷新判定)","color": "light_purple"}]
@@ -28,7 +28,7 @@ execute if score e e26 matches 1 run title @a actionbar [{"text": "食用一个�
 execute if score e e27 matches 1 run title @a actionbar [{"text": "食用一个甜浆果","color": "light_purple"}]
 execute if score e e28 matches 1 run title @a actionbar [{"text": "食用一个胡萝卜","color": "light_purple"}]
 execute if score e e29 matches 1 run title @a actionbar [{"text": "食用一个烤马铃薯","color": "light_purple"}]
-execute if score e e30 matches 1 run title @a actionbar [{"text": "被爬行者炸死","color": "light_purple"}]
+execute if score e e30 matches 1 run title @a actionbar [{"text": "击败一只苦力怕","color": "light_purple"}]
 execute if score e e31 matches 1 run title @a actionbar [{"text": "拾取一个草方块","color": "light_purple"}]
 execute if score e e32 matches 1 run title @a actionbar [{"text": "拾取一个泥土","color": "light_purple"}]
 execute if score e e33 matches 1 run title @a actionbar [{"text": "一次性对玩家造成大于5点的伤害","color": "light_purple"}]
@@ -108,4 +108,5 @@ execute if score e e106 matches 1 run title @a actionbar [{"text": "","color": "
 execute if score e e107 matches 1 run title @a actionbar [{"text": "","color": "light_purple"}]
 execute if score e e108 matches 1 run title @a actionbar [{"text": "","color": "light_purple"}]
 execute if score e e109 matches 1 run title @a actionbar [{"text": "","color": "light_purple"}]
+
 
