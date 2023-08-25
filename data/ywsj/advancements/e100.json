@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "event100": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "e100": 0
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:donkey"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ywsj:event/random_event/e100/s"
+  }
+}

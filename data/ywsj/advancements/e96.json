@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "event96": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "e96": 0
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ywsj:event/random_event/e96/s"
+  }
+}
