@@ -10,7 +10,7 @@
 
 ## 开源协议
 
-协议：[GNU General Public License, version 2(GNU GPL-2)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
+协议：[GNU General Public License, version 3(GNU GPL-3)](https://www.gnu.org/licenses/agpl-3.0.txt)
 
 
 ## 版本说明
