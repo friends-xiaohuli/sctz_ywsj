@@ -1,0 +1,1 @@
+scoreboard objectives add 115 minecraft.custom:minecraft.fall_one_cm

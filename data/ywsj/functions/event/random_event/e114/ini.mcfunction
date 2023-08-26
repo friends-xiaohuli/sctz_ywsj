@@ -1,0 +1,1 @@
+scoreboard objectives add 114 minecraft.custom:minecraft.crouch_one_cm

@@ -10,7 +10,7 @@
 
 ## 开源协议
 
-协议：[GNU Affero General Public License v3.0(GNU AGPL-3)](https://www.gnu.org/licenses/agpl-3.0.txt)
+开源协议：[GNU Affero General Public License v3.0(GNU AGPL-3)](https://www.gnu.org/licenses/agpl-3.0.txt)
 
 
 ## 版本说明

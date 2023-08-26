@@ -243,6 +243,12 @@ scoreboard objectives add e240 dummy
 scoreboard objectives add e241 dummy
 scoreboard objectives add e242 dummy
 #endregion
+
+#region
+function ywsj:event/random_event/e114/ini
+function ywsj:event/random_event/e115/ini
+#endregion
+
 #常规初始化
 scoreboard objectives add time dummy
 scoreboard players set sptime time 0
@@ -254,3 +260,4 @@ scoreboard players set f end 0
 tag @a remove vic
 tag @a remove spe
 function ywsj:event/reset
+
