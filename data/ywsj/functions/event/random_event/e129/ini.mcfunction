@@ -1,0 +1,1 @@
+scoreboard objectives add 129 minecraft.custom:minecraft.swim_one_cm

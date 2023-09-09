@@ -210,8 +210,36 @@ execute if score r random matches 207 run scoreboard players set e e207 1
 execute if score r random matches 208 run scoreboard players set e e208 1
 execute if score r random matches 209 run scoreboard players set e e209 1
 execute if score r random matches 210 run scoreboard players set e e210 1
+execute if score r random matches 211 run scoreboard players set e e211 1
+execute if score r random matches 212 run scoreboard players set e e212 1
+execute if score r random matches 213 run scoreboard players set e e213 1
+execute if score r random matches 214 run scoreboard players set e e214 1
+execute if score r random matches 215 run scoreboard players set e e215 1
+execute if score r random matches 216 run scoreboard players set e e216 1
+execute if score r random matches 217 run scoreboard players set e e217 1
+execute if score r random matches 218 run scoreboard players set e e218 1
+execute if score r random matches 219 run scoreboard players set e e219 1
+execute if score r random matches 220 run scoreboard players set e e220 1
+execute if score r random matches 221 run scoreboard players set e e221 1
+execute if score r random matches 222 run scoreboard players set e e222 1
+execute if score r random matches 223 run scoreboard players set e e223 1
+execute if score r random matches 224 run scoreboard players set e e224 1
+execute if score r random matches 225 run scoreboard players set e e225 1
+execute if score r random matches 226 run scoreboard players set e e226 1
+execute if score r random matches 227 run scoreboard players set e e227 1
+execute if score r random matches 228 run scoreboard players set e e228 1
+execute if score r random matches 229 run scoreboard players set e e229 1
+execute if score r random matches 230 run scoreboard players set e e230 1
+execute if score r random matches 231 run scoreboard players set e e231 1
+execute if score r random matches 232 run scoreboard players set e e232 1
+execute if score r random matches 233 run scoreboard players set e e233 1
+execute if score r random matches 234 run scoreboard players set e e234 1
+execute if score r random matches 235 run scoreboard players set e e235 1
+
+
+
 
 #endregion
-execute if score morenum debug matches 1 run tellraw @a [{"text": "当前事件编号：","bold": true,"color": "green"},{"score":{"name":"r","objective":"random"},"color": "dark_red"}]
+execute if score morenum debug matches 1 run tellraw @a [{"text": "当前事件编号：","bold": true,"color": "yellow"},{"score":{"name":"r","objective":"random"},"color": "dark_red"}]
 #执行
 schedule function ywsj:event/random_event/ini 10

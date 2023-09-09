@@ -1,0 +1,1 @@
+scoreboard objectives add 125 minecraft.custom:minecraft.fly_one_cm

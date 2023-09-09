@@ -1,0 +1,1 @@
+scoreboard objectives add 117 minecraft.custom:minecraft.open_barrel

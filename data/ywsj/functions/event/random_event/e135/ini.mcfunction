@@ -1,0 +1,1 @@
+scoreboard objectives add 135 minecraft.custom:minecraft.jump

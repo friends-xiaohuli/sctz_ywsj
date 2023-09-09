@@ -1,0 +1,1 @@
+scoreboard objectives add 122 minecraft.custom:minecraft.boat_one_cm

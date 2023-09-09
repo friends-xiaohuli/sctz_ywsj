@@ -247,6 +247,56 @@ scoreboard objectives add e242 dummy
 #region
 function ywsj:event/random_event/e114/ini
 function ywsj:event/random_event/e115/ini
+function ywsj:event/random_event/e116/ini
+function ywsj:event/random_event/e117/ini
+function ywsj:event/random_event/e118/ini
+function ywsj:event/random_event/e119/ini
+function ywsj:event/random_event/e120/ini
+function ywsj:event/random_event/e121/ini
+function ywsj:event/random_event/e122/ini
+function ywsj:event/random_event/e123/ini
+function ywsj:event/random_event/e124/ini
+function ywsj:event/random_event/e125/ini
+function ywsj:event/random_event/e126/ini
+function ywsj:event/random_event/e127/ini
+function ywsj:event/random_event/e128/ini
+function ywsj:event/random_event/e129/ini
+function ywsj:event/random_event/e130/ini
+function ywsj:event/random_event/e131/ini
+function ywsj:event/random_event/e132/ini
+function ywsj:event/random_event/e133/ini
+function ywsj:event/random_event/e134/ini
+function ywsj:event/random_event/e135/ini
+function ywsj:event/random_event/e136/ini
+function ywsj:event/random_event/e137/ini
+function ywsj:event/random_event/e138/ini
+function ywsj:event/random_event/e139/ini
+function ywsj:event/random_event/e140/ini
+function ywsj:event/random_event/e141/ini
+function ywsj:event/random_event/e142/ini
+function ywsj:event/random_event/e143/ini
+function ywsj:event/random_event/e144/ini
+function ywsj:event/random_event/e145/ini
+function ywsj:event/random_event/e146/ini
+function ywsj:event/random_event/e147/ini
+function ywsj:event/random_event/e148/ini
+function ywsj:event/random_event/e149/ini
+function ywsj:event/random_event/e150/ini
+function ywsj:event/random_event/e151/ini
+function ywsj:event/random_event/e152/ini
+function ywsj:event/random_event/e153/ini
+function ywsj:event/random_event/e154/ini
+function ywsj:event/random_event/e155/ini
+function ywsj:event/random_event/e156/ini
+function ywsj:event/random_event/e157/ini
+function ywsj:event/random_event/e158/ini
+function ywsj:event/random_event/e159/ini
+function ywsj:event/random_event/e160/ini
+function ywsj:event/random_event/e161/ini
+function ywsj:event/random_event/e162/ini
+function ywsj:event/random_event/e163/ini
+function ywsj:event/random_event/e164/ini
+
 #endregion
 
 #常规初始化

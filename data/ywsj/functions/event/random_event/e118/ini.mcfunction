@@ -1,0 +1,1 @@
+scoreboard objectives add 118 minecraft.custom:minecraft.damage_dealt

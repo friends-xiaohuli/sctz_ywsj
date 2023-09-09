@@ -1,0 +1,1 @@
+scoreboard objectives add 133 minecraft.custom:minecraft.mob_kills

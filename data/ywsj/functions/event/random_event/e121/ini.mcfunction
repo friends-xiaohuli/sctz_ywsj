@@ -1,0 +1,1 @@
+scoreboard objectives add 121 minecraft.custom:minecraft.open_chest

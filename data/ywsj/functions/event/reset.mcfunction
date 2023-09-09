@@ -5,8 +5,51 @@ tag @a remove ef
 scoreboard players set s end 0
 scoreboard players set f end 0
 #region计分板事件情况
-scoreboard players reset * 114
-scoreboard players reset * 115
+scoreboard players reset * 126
+scoreboard players reset * 127
+scoreboard players reset * 128
+scoreboard players reset * 129
+scoreboard players reset * 130
+scoreboard players reset * 131
+scoreboard players reset * 132
+scoreboard players reset * 133
+scoreboard players reset * 134
+scoreboard players reset * 135
+scoreboard players reset * 136
+scoreboard players reset * 137
+scoreboard players reset * 138
+scoreboard players reset * 139
+scoreboard players reset * 140
+scoreboard players reset * 141
+scoreboard players reset * 142
+scoreboard players reset * 143
+scoreboard players reset * 144
+scoreboard players reset * 145
+scoreboard players reset * 146
+scoreboard players reset * 147
+scoreboard players reset * 148
+scoreboard players reset * 149
+scoreboard players reset * 150
+scoreboard players reset * 151
+scoreboard players reset * 152
+scoreboard players reset * 153
+scoreboard players reset * 154
+scoreboard players reset * 155
+scoreboard players reset * 156
+scoreboard players reset * 157
+scoreboard players reset * 158
+scoreboard players reset * 159
+scoreboard players reset * 160
+scoreboard players reset * 161
+scoreboard players reset * 162
+scoreboard players reset * 163
+scoreboard players reset * 164
+scoreboard players reset * 165
+scoreboard players reset * 166
+scoreboard players reset * 167
+scoreboard players reset * 168
+scoreboard players reset * 169
+scoreboard players reset * 170
 #endregion
 
 #region清空成就
@@ -124,19 +167,19 @@ advancement revoke @a only ywsj:e110
 advancement revoke @a only ywsj:e111
 advancement revoke @a only ywsj:e112
 advancement revoke @a only ywsj:e113
-advancement revoke @a only ywsj:e114
-advancement revoke @a only ywsj:e115
-advancement revoke @a only ywsj:e116
-advancement revoke @a only ywsj:e117
-advancement revoke @a only ywsj:e118
-advancement revoke @a only ywsj:e119
-advancement revoke @a only ywsj:e120
-advancement revoke @a only ywsj:e121
-advancement revoke @a only ywsj:e122
-advancement revoke @a only ywsj:e123
-advancement revoke @a only ywsj:e124
-advancement revoke @a only ywsj:e125
-advancement revoke @a only ywsj:e126
+# advancement revoke @a only ywsj:e114
+# advancement revoke @a only ywsj:e115
+# advancement revoke @a only ywsj:e116
+# advancement revoke @a only ywsj:e117
+# advancement revoke @a only ywsj:e118
+# advancement revoke @a only ywsj:e119
+# advancement revoke @a only ywsj:e120
+# advancement revoke @a only ywsj:e121
+# advancement revoke @a only ywsj:e122
+# advancement revoke @a only ywsj:e123
+# advancement revoke @a only ywsj:e124
+# advancement revoke @a only ywsj:e125
+# advancement revoke @a only ywsj:e126
 advancement revoke @a only ywsj:e127
 advancement revoke @a only ywsj:e128
 advancement revoke @a only ywsj:e129

@@ -1,0 +1,1 @@
+scoreboard objectives add 127 minecraft.custom:minecraft.sprint_one_cm

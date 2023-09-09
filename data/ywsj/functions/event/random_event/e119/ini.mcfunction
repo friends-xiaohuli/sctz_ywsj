@@ -1,0 +1,1 @@
+scoreboard objectives add 119 minecraft.custom:minecraft.bell_ring

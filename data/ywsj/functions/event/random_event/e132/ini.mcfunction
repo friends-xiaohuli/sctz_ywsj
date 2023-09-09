@@ -1,0 +1,1 @@
+scoreboard objectives add 132 minecraft.custom:minecraft.talked_to_villager
