@@ -2,6 +2,7 @@ gamemode adventure @a
 clear @a
 effect clear
 xp set @a 0 levels
+xp set @a 0 points
 advancement revoke @a everything
 kill @e[type=armor_stand,tag=rp]
 scoreboard objectives setdisplay sidebar

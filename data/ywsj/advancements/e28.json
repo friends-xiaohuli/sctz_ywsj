@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "e27": 0
+              "e28": 0
             }
           }
         ],
@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "ywsj:event/random_event/e27/s"
+    "function": "ywsj:event/random_event/e28/s"
   }
 }
