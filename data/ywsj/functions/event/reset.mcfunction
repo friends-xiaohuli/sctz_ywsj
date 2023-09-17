@@ -4,7 +4,20 @@ tag @a remove ef
 #重置统计积分榜
 scoreboard players set s end 0
 scoreboard players set f end 0
+
 #region计分板事件情况
+scoreboard players reset * 114
+scoreboard players reset * 115
+scoreboard players reset * 116
+scoreboard players reset * 117
+scoreboard players reset * 118
+scoreboard players reset * 119
+scoreboard players reset * 120
+scoreboard players reset * 121
+scoreboard players reset * 122
+scoreboard players reset * 123
+scoreboard players reset * 124
+scoreboard players reset * 125
 scoreboard players reset * 126
 scoreboard players reset * 127
 scoreboard players reset * 128
@@ -50,6 +63,50 @@ scoreboard players reset * 167
 scoreboard players reset * 168
 scoreboard players reset * 169
 scoreboard players reset * 170
+scoreboard players reset * 171
+scoreboard players reset * 172
+scoreboard players reset * 173
+scoreboard players reset * 174
+scoreboard players reset * 175
+scoreboard players reset * 176
+scoreboard players reset * 177
+scoreboard players reset * 178
+scoreboard players reset * 179
+scoreboard players reset * 180
+scoreboard players reset * 181
+scoreboard players reset * 182
+scoreboard players reset * 183
+scoreboard players reset * 184
+scoreboard players reset * 185
+scoreboard players reset * 186
+scoreboard players reset * 187
+scoreboard players reset * 188
+scoreboard players reset * 189
+scoreboard players reset * 190
+scoreboard players reset * 191
+scoreboard players reset * 192
+scoreboard players reset * 193
+scoreboard players reset * 194
+scoreboard players reset * 195
+scoreboard players reset * 196
+scoreboard players reset * 197
+scoreboard players reset * 198
+scoreboard players reset * 199
+scoreboard players reset * 200
+scoreboard players reset * 201
+scoreboard players reset * 202
+scoreboard players reset * 203
+scoreboard players reset * 204
+scoreboard players reset * 205
+scoreboard players reset * 206
+scoreboard players reset * 207
+scoreboard players reset * 208
+scoreboard players reset * 209
+scoreboard players reset * 210
+scoreboard players reset * 211
+scoreboard players reset * 212
+scoreboard players reset * 213
+
 #endregion
 
 #region清空成就

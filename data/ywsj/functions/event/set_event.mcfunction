@@ -242,4 +242,4 @@ execute if score r random matches 235 run scoreboard players set e e235 1
 #endregion
 execute if score morenum debug matches 1 run tellraw @a [{"text": "当前事件编号：","bold": true,"color": "yellow"},{"score":{"name":"r","objective":"random"},"color": "dark_red"}]
 #执行
-schedule function ywsj:event/random_event/ini 10
+schedule function ywsj:event/random_event/ini 2
