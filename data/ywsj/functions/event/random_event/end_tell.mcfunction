@@ -1,5 +1,6 @@
+execute if score mode mode matches 0 run title @a title [{"text": "事件结束!","color": "light_purple","bold": true}]
+execute if score mode mode matches 1 run title @a title [{"text": "独占模式!","color": "light_purple","bold": true}]
 #region事件编号
-title @a title [{"text": "事件结束!","color": "light_purple","bold": true}]
 execute if score e e0 matches 1 run title @a subtitle [{"text": "事件编号#0","color": "yellow"}]
 execute if score e e1 matches 1 run title @a subtitle [{"text": "事件编号#1","color": "yellow"}]
 execute if score e e2 matches 1 run title @a subtitle [{"text": "事件编号#2","color": "yellow"}]

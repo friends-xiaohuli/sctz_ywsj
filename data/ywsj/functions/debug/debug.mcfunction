@@ -3,6 +3,7 @@
 
 #nogame 在不进行游戏的情况下运行事件判定
 execute if score nogame debug matches 1 run function ywsj:event/random_event/tick
+execute if score nogame debug matches 1 run function ywsj:mode/tick
 
 #morenum 展示更多为位置的事件编号
 

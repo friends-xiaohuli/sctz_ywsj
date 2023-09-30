@@ -6,3 +6,4 @@ function ywsj:set/gameing_book
 function ywsj:player/tick
 execute if score game game matches 1 run function ywsj:end/tick
 function ywsj:debug/tick
+execute if score game game matches 1 run function ywsj:mode/tick
