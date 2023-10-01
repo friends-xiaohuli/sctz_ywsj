@@ -8,6 +8,8 @@ execute if score PVP game matches 1 run team modify player friendlyFire true
 execute if score PVP game matches 0 run team modify player friendlyFire false
 execute if score glow game matches 1 run effect give @a glowing infinite 255 true
 execute if score glow game matches 0 run effect clear @a glowing
+execute if score night game matches 1 run effect give @a night_vision infinite 255 true
+execute if score night game matches 0 run effect clear @a night_vision
 #为保证部分事件可完成锁定部分rule
 gamerule fallDamage true
 gamerule fireDamage true
