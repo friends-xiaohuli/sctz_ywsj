@@ -1,6 +1,15 @@
 {
     "pack": {
         "pack_format": 18,
-        "description": "生存挑战之意外事件"
+        "description": [
+			{
+				"text":"生存挑战之意外事件",
+				"color":"#FFCCFF"
+			},
+			{
+				"text":"\nby 霜澪是只白狐ya",
+				"color":"#66CCFF"
+			}
+		]
     }
 }

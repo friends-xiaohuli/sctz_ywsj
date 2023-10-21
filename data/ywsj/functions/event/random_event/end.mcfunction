@@ -251,6 +251,6 @@ execute if score e e240 matches 1 run execute as @a[gamemode=survival] run execu
 scoreboard players operation f end = sur_player game
 scoreboard players operation f end -= s end
 
-execute if score s end matches 1.. run schedule function ywsj:event/random_event/end_s 10
-execute if score f end matches 1.. run schedule function ywsj:event/random_event/end_f 10
-schedule function ywsj:event/reset 3s
+execute if score s end matches 1.. run schedule function ywsj:event/random_event/end_s 5
+execute if score f end matches 1.. run schedule function ywsj:event/random_event/end_f 5
+schedule function ywsj:event/reset 10
