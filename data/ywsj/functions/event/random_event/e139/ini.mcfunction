@@ -1,0 +1,1 @@
+scoreboard objectives add 139 minecraft.custom:minecraft.interact_with_furnace

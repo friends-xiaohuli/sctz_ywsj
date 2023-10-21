@@ -1,0 +1,1 @@
+scoreboard objectives add 144 minecraft.custom:minecraft.interact_with_anvil 

@@ -1,0 +1,1 @@
+scoreboard objectives add 141 minecraft.custom:minecraft.inspect_dropper

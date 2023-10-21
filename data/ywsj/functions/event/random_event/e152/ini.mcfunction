@@ -1,0 +1,1 @@
+scoreboard objectives add 152 minecraft.custom:minecraft.interact_with_smithing_table

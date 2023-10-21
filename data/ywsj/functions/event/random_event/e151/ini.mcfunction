@@ -1,0 +1,1 @@
+scoreboard objectives add 151 minecraft.custom:minecraft.interact_with_loom

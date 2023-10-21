@@ -1,0 +1,1 @@
+scoreboard objectives add 153 minecraft.custom:minecraft.interact_with_smoker
