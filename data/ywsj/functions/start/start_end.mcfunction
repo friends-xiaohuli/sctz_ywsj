@@ -1,9 +1,10 @@
-scoreboard players operation @a score = s game
-scoreboard players operation @a score_show = s game
+scoreboard players operation @a[team=player] score = s game
+scoreboard players operation @a[team=player] score_show = s game
 scoreboard objectives setdisplay sidebar score_show
-gamemode survival @a
-execute as @a at @s run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 obsidian
-execute as @a at @s run spawnpoint @s ~ ~1 ~
+gamemode survival @a[team=player]
+gamemode spectator @a[team=!player]
+execute as @a[team=player] at @s run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 obsidian
+execute as @a[team=player] at @s run spawnpoint @s ~ ~1 ~
 effect clear @a
 time set day
 weather clear
@@ -16,4 +17,5 @@ effect give @a water_breathing 6 255
 effect give @a mining_fatigue 6 255
 title @a title [{"text": "游戏即将开始..","bold": true,"color": "dark_purple"}]
 function ywsj:set/set_tell
+function ywsj:set/set_tell_player
 schedule function ywsj:start/start_end_cd3 3s

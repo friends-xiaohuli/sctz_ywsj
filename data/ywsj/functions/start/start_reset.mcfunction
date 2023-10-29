@@ -1,4 +1,5 @@
-gamemode adventure @a
+gamemode adventure @a[team=player]
+gamemode spectator @a[team=!player]
 clear @a
 effect clear @a
 xp set @a 0 levels
