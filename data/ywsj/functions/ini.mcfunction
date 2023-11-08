@@ -12,3 +12,4 @@ function ywsj:score/ini
 function ywsj:event/reset
 function ywsj:debug/ini
 function ywsj:mode/ini
+function ywsj:ifwater/ini

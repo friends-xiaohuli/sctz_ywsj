@@ -1,0 +1,7 @@
+tellraw @s [{"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n","bold": true,"color": "dark_green"}]
+tellraw @s [{"text": "==========【当前玩法设置】==========","bold": true,"color": "dark_green"}]
+execute if score dc game matches 1 run tellraw @s [{"text":"§6§l[关闭]","clickEvent":{"action":"run_command","value":"/function ywsj:set/set_dc_c"}},{"text": "一条命：","bold": true,"color": "dark_green","hoverEvent":{"action":"show_text","value":{"text":"开启后死亡即失败"}}},{"text":"开启","bold": true,"color": "green"}]
+execute if score dc game matches 0 run tellraw @s [{"text":"§6§l[开启]","clickEvent":{"action":"run_command","value":"/function ywsj:set/set_dc_o"}},{"text": "一条命：","bold": true,"color": "dark_green","hoverEvent":{"action":"show_text","value":{"text":"开启后死亡即失败"}}},{"text":"关闭","bold": true,"color": "red"}]
+execute if score ecd game matches 0 run tellraw @s [{"text":"§6§l[关闭]","clickEvent":{"action":"run_command","value":"/function ywsj:set/set_ecd_c"}},{"text": "事件无冷却：","bold": true,"color": "dark_green","hoverEvent":{"action":"show_text","value":{"text":"开启后事件触发间隔将大幅缩短"}}},{"text":"开启","bold": true,"color": "green"}]
+execute if score ecd game matches 1 run tellraw @s [{"text":"§6§l[开启]","clickEvent":{"action":"run_command","value":"/function ywsj:set/set_ecd_o"}},{"text": "事件无冷却：","bold": true,"color": "dark_green","hoverEvent":{"action":"show_text","value":{"text":"开启后事件触发间隔将大幅缩短"}}},{"text":"关闭","bold": true,"color": "red"}]
+tellraw @s [{"text":"！[重置玩法设置]","color": "dark_purple","clickEvent":{"action":"run_command","value":"/function ywsj:set/set_play_reset"}}]

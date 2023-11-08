@@ -247,6 +247,8 @@ execute if score e e240 matches 1 run execute as @a[gamemode=survival] run execu
 
 #endregion
 
+#事件锁 
+scoreboard players set e game 0
 
 scoreboard players operation f end = sur_player game
 scoreboard players operation f end -= s end

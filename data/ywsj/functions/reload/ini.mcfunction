@@ -1,5 +1,6 @@
 team leave @a
 scoreboard objectives setdisplay sidebar
+scoreboard players set game game 0
 
 
 #region防止计分板失效

@@ -1,5 +1,4 @@
-tellraw @a [{"text": "\n已重置基础设置","bold": true,"color": "green"}]
-scoreboard players set dc game 0
+tellraw @a [{"text": "\n已重置基础设置","bold": true,"color": "dark_purple"}]
 scoreboard players set ki game 0
 scoreboard players set PVP game 0
 scoreboard players set psp game 1
