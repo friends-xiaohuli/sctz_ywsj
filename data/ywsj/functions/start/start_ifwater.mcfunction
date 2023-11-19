@@ -1,5 +1,3 @@
-worldborder set 99999
-
 execute as @a at @s if block ~ ~ ~ water run scoreboard players set @s ifwater 1
 execute store result score iswater ifwater run scoreboard players set @a[scores={ifwater=1}] ifwater 1
 

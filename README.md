@@ -58,8 +58,6 @@
 
 *此数据包含单人判定，强制结束
 
-![Snipaste_2023-02-05_17-31-24.png](https://s2.loli.net/2023/02/05/lAuomg4W16PVJHG.png)
-
 ### 3.数据包自定义设置
 
 除重载数据包外，其余模式设定均可延续至下一轮
@@ -71,9 +69,13 @@
 
 *游戏进行中无法获取
 
-![Snipaste_2023-10-01_15-11-43.png](https://s2.loli.net/2023/10/01/5KjOSHMJ2i3uvxP.png)
+![Snipaste_2023-11-08_14-57-21.png](https://s2.loli.net/2023/11/08/nLVEXDd8Fi4YeBp.png)
 
-![Snipaste_2023-10-01_15-11-32.png](https://s2.loli.net/2023/10/01/UFwzGiLq7hQrogm.png)
+![Snipaste_2023-11-08_14-57-34.png](https://s2.loli.net/2023/11/08/gqRc6yduEeLvHkS.png)
+
+![Snipaste_2023-11-08_14-57-50.png](https://s2.loli.net/2023/11/08/fPFRhSkODInpewo.png)
+
+![Snipaste_2023-11-08_14-58-06.png](https://s2.loli.net/2023/11/08/Se2Rs4FJNqcuvl3.png)
 
 ***如遇书本排版错位等问题，请在“语言”中打开“强制使用Unicode字体”**
 

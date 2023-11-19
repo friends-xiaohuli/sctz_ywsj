@@ -1,13 +1,16 @@
 scoreboard players operation @a[team=player] score = s game
 scoreboard players operation @a[team=player] score_show = s game
 scoreboard objectives setdisplay sidebar score_show
+function ywsj:score/get_score
 gamemode survival @a[team=player]
 gamemode spectator @a[team=!player]
+team modify player collisionRule always
 execute as @a[team=player] at @s run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 obsidian
 execute as @a[team=player] at @s run spawnpoint @s ~ ~1 ~
 effect clear @a
 time set day
 weather clear
+scoreboard players reset * dc
 effect give @a slowness 6 255
 effect give @a resistance 6 255
 effect give @a invisibility 6 255

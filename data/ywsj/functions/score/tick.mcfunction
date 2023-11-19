@@ -1,1 +1,0 @@
-function ywsj:score/rem_score

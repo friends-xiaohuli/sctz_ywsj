@@ -13,3 +13,4 @@ function ywsj:event/reset
 function ywsj:debug/ini
 function ywsj:mode/ini
 function ywsj:ifwater/ini
+function ywsj:xyz/ini
