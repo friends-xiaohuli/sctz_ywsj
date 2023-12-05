@@ -522,18 +522,18 @@ advancement revoke @a only ywsj:e113
 # advancement revoke @a only ywsj:e162
 # advancement revoke @a only ywsj:e163
 # advancement revoke @a only ywsj:e164
-advancement revoke @a only ywsj:e165
-advancement revoke @a only ywsj:e166
-advancement revoke @a only ywsj:e167
-advancement revoke @a only ywsj:e168
-advancement revoke @a only ywsj:e169
-advancement revoke @a only ywsj:e170
-advancement revoke @a only ywsj:e171
-advancement revoke @a only ywsj:e172
-advancement revoke @a only ywsj:e173
-advancement revoke @a only ywsj:e174
-advancement revoke @a only ywsj:e175
-advancement revoke @a only ywsj:e176
+# advancement revoke @a only ywsj:e165
+# advancement revoke @a only ywsj:e166
+# advancement revoke @a only ywsj:e167
+# advancement revoke @a only ywsj:e168
+# advancement revoke @a only ywsj:e169
+# advancement revoke @a only ywsj:e170
+# advancement revoke @a only ywsj:e171
+# advancement revoke @a only ywsj:e172
+# advancement revoke @a only ywsj:e173
+# advancement revoke @a only ywsj:e174
+# advancement revoke @a only ywsj:e175
+# advancement revoke @a only ywsj:e176
 advancement revoke @a only ywsj:e177
 advancement revoke @a only ywsj:e178
 advancement revoke @a only ywsj:e179

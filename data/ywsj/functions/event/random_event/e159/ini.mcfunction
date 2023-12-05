@@ -1,0 +1,1 @@
+scoreboard objectives add 159 minecraft.mined:raw_iron_block

@@ -1,0 +1,1 @@
+scoreboard objectives add 167 minecraft.crafted:lightning_rod 

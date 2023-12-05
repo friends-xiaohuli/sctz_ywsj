@@ -1,0 +1,1 @@
+scoreboard objectives add 162 minecraft.mined:raw_gold_block 

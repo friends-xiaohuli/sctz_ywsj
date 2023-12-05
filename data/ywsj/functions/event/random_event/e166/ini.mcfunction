@@ -1,0 +1,1 @@
+scoreboard objectives add 166 minecraft.mined:copper_block 

@@ -1,0 +1,1 @@
+scoreboard objectives add 161 minecraft.crafted:raw_gold 

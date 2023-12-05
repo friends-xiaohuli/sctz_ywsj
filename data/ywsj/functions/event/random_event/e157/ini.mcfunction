@@ -1,0 +1,1 @@
+scoreboard objectives add 157 minecraft.crafted:heavy_weighted_pressure_plate

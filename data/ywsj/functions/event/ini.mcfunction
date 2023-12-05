@@ -300,6 +300,9 @@ scoreboard objectives remove 164
 scoreboard objectives remove 165
 scoreboard objectives remove 166
 scoreboard objectives remove 167
+scoreboard objectives remove 168
+scoreboard objectives remove 169
+scoreboard objectives remove 170
 
 #endregion
 
@@ -356,6 +359,34 @@ function ywsj:event/random_event/e161/ini
 function ywsj:event/random_event/e162/ini
 function ywsj:event/random_event/e163/ini
 function ywsj:event/random_event/e164/ini
+function ywsj:event/random_event/e165/ini
+function ywsj:event/random_event/e166/ini
+function ywsj:event/random_event/e167/ini
+function ywsj:event/random_event/e168/ini
+function ywsj:event/random_event/e169/ini
+function ywsj:event/random_event/e170/ini
+function ywsj:event/random_event/e171/ini
+function ywsj:event/random_event/e172/ini
+function ywsj:event/random_event/e173/ini
+function ywsj:event/random_event/e174/ini
+function ywsj:event/random_event/e175/ini
+function ywsj:event/random_event/e176/ini
+function ywsj:event/random_event/e177/ini
+function ywsj:event/random_event/e178/ini
+function ywsj:event/random_event/e179/ini
+function ywsj:event/random_event/e180/ini
+function ywsj:event/random_event/e181/ini
+function ywsj:event/random_event/e182/ini
+function ywsj:event/random_event/e183/ini
+function ywsj:event/random_event/e184/ini
+function ywsj:event/random_event/e185/ini
+function ywsj:event/random_event/e186/ini
+function ywsj:event/random_event/e187/ini
+function ywsj:event/random_event/e188/ini
+function ywsj:event/random_event/e189/ini
+function ywsj:event/random_event/e190/ini
+function ywsj:event/random_event/e191/ini
+
 
 #endregion
 

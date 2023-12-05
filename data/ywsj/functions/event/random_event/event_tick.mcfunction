@@ -40,4 +40,17 @@ execute as @a[scores={e152=0}] at @s if score @s 152 matches 1.. at @s run funct
 execute as @a[scores={e153=0}] at @s if score @s 153 matches 1.. at @s run function ywsj:event/random_event/e153/s
 execute as @a[scores={e154=0}] at @s if score @s 154 matches 1.. at @s run function ywsj:event/random_event/e154/s
 execute as @a[scores={e155=0}] at @s if score @s 155 matches 1.. at @s run function ywsj:event/random_event/e155/s
+execute as @a[scores={e156=0}] at @s if score @s 156 matches 1.. at @s run function ywsj:event/random_event/e156/s
+execute as @a[scores={e157=0}] at @s if score @s 157 matches 1.. at @s run function ywsj:event/random_event/e157/s
+execute as @a[scores={e158=0}] at @s if score @s 158 matches 1.. at @s run function ywsj:event/random_event/e158/s
+execute as @a[scores={e159=0}] at @s if score @s 159 matches 1.. at @s run function ywsj:event/random_event/e159/s
+execute as @a[scores={e160=0}] at @s if score @s 160 matches 1.. at @s run function ywsj:event/random_event/e160/s
+execute as @a[scores={e161=0}] at @s if score @s 161 matches 1.. at @s run function ywsj:event/random_event/e161/s
+execute as @a[scores={e162=0}] at @s if score @s 162 matches 1.. at @s run function ywsj:event/random_event/e162/s
+execute as @a[scores={e163=0}] at @s if score @s 163 matches 1.. at @s run function ywsj:event/random_event/e163/s
+execute as @a[scores={e164=0}] at @s if score @s 164 matches 1.. at @s run function ywsj:event/random_event/e164/s
+execute as @a[scores={e165=0}] at @s if score @s 165 matches 1.. at @s run function ywsj:event/random_event/e165/s
+execute as @a[scores={e166=0}] at @s if score @s 166 matches 1.. at @s run function ywsj:event/random_event/e166/s
+execute as @a[scores={e167=0}] at @s if score @s 167 matches 1.. at @s run function ywsj:event/random_event/e167/s
+execute as @a[scores={e168=0}] at @s if score @s 168 matches 1.. at @s run function ywsj:event/random_event/e168/s
 

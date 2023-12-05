@@ -1,0 +1,1 @@
+scoreboard objectives add 158 minecraft.crafted:raw_iron

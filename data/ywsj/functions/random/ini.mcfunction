@@ -1,2 +1,6 @@
 scoreboard objectives add random dummy
-scoreboard players set max random 156
+
+# #region旧版随机数
+# scoreboard players set max random 169
+# #endregion
+
