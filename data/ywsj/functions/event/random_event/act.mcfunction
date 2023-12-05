@@ -87,7 +87,7 @@ execute if score e e85 matches 1 run title @a actionbar [{"text": "站在泥土�
 execute if score e e86 matches 1 run title @a actionbar [{"text": "站在沙子上","color": "light_purple"}]
 execute if score e e87 matches 1 run title @a actionbar [{"text": "站在粘土块上","color": "light_purple"}]
 execute if score e e88 matches 1 run title @a actionbar [{"text": "站在苔藓块上","color": "light_purple"}]
-execute if score e e89 matches 1 run title @a actionbar [{"text": "站在雪（片）上","color": "light_purple"}]
+execute if score e e89 matches 1 run title @a actionbar [{"text": "站在橡木木板上","color": "light_purple"}]
 execute if score e e90 matches 1 run title @a actionbar [{"text": "站在雪块上","color": "light_purple"}]
 execute if score e e91 matches 1 run title @a actionbar [{"text": "站在床上","color": "light_purple"}]
 execute if score e e92 matches 1 run title @a actionbar [{"text": "击败一只鸡","color": "light_purple"}]

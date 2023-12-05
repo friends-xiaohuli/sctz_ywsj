@@ -7,4 +7,4 @@
 
 
 #仅1.20.2以上可用
-execute store result score r random run random value 0..168
+execute store result score r random run random value 0..168 random

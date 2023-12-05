@@ -10,3 +10,5 @@ scoreboard players set s game 20
 scoreboard players set worldborder game 2000
 scoreboard players set ecd game 1
 scoreboard players set e game 0
+
+scoreboard objectives add book trigger
