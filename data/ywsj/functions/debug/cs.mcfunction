@@ -15,7 +15,7 @@ scoreboard players set nogame debug 1
 
 #region伪任务测试（需开始游戏）
 
-scoreboard objectives setdisplay sidebar 164
+scoreboard objectives setdisplay sidebar 168
 
 scoreboard players set sptime time 0
 scoreboard players add event time 1
@@ -26,7 +26,7 @@ title @a title [{"text": "随机事件已触发...","color": "red"}]
 #锁任务
 scoreboard players set e game 1
 #随机
-scoreboard players set r random 164
+scoreboard players set r random 168
 #重置
 function ywsj:event/reset
 #设置
