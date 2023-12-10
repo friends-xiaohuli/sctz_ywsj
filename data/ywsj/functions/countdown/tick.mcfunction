@@ -30,7 +30,11 @@ execute if score mode mode matches 1 run execute if score cd countdown matches 2
 execute if score mode mode matches 1 run execute if score cd countdown matches 1..20 run bossbar set countdown name {"text":"独占模式|倒计时1秒","color": "red","bold": true}
 
 #强提醒
-execute if score cd countdown matches 300 run title @a title {"text":"倒计时15秒","color": "green","bold": true}
+execute if score cd countdown matches 300 run title @a title {"text": ""}
+execute if score cd countdown matches 300 run title @a subtitle {"text":"倒计时15秒","color": "green","bold": true}
 execute if score cd countdown matches 280 run title @a title {"text": ""}
-execute if score cd countdown matches 100 run title @a title {"text":"倒计时5秒","color": "yellow","bold": true}
+execute if score cd countdown matches 280 run title @a subtitle {"text": ""}
+execute if score cd countdown matches 100 run title @a title {"text": ""}
+execute if score cd countdown matches 100 run title @a subtitle {"text":"倒计时5秒","color": "yellow","bold": true}
 execute if score cd countdown matches 80 run title @a title {"text": ""}
+execute if score cd countdown matches 80 run title @a subtitle {"text": ""}

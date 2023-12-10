@@ -24,5 +24,5 @@ scoreboard players set sptime time 0
 scoreboard players set event time 0
 scoreboard players set §3by：霜澪是只白狐ya score_show -5
 function ywsj:event/reset
-tellraw @a [{"text": "\n正在重置请稍等...","color": "dark_red","bold": true}]
+tellraw @a [{"text": "\n正在重置请稍等...","color": "dark_red"}]
 schedule function ywsj:start/start_randomplayer 1s
