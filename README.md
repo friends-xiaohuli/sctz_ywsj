@@ -76,9 +76,9 @@
 
 ![Snipaste_2023-11-08_14-57-34.png](https://s2.loli.net/2023/11/08/gqRc6yduEeLvHkS.png)
 
-![Snipaste_2023-11-08_14-57-50.png](https://s2.loli.net/2023/11/08/fPFRhSkODInpewo.png)
+![Snipaste_2024-03-02_01-04-59.png](https://s2.loli.net/2024/03/02/GYtdRwihbElJ4zW.png)
 
-![Snipaste_2023-11-08_14-58-06.png](https://s2.loli.net/2023/11/08/Se2Rs4FJNqcuvl3.png)
+![Snipaste_2024-03-02_01-06-26.png](https://s2.loli.net/2024/03/02/S3u1RHlWXZaDTYP.png)
 
 ***如遇书本排版错位等问题，请在“语言”中打开“强制使用Unicode字体”**
 
@@ -104,6 +104,7 @@
 | 独占模式  | 已完成 |
 | 水域判断  | 已完成 |
 | 事件点设置  | 已完成 |
+| 事件时长设置  | 已完成 |
 | 边界大小设置  | 已完成 |
 | 设置书合并  | 已完成 |
 | 随机事件已完成个数  | 169 |
@@ -123,6 +124,9 @@
 
 通过测试发现，由于加载地图数据量过大可能导致你的服务端侧发生崩溃，请尝试使用优化插件或者换成客户端开服
 
+### 其他玩家部分按钮失效
+
+需要在对局域网端口开放的时候开启作弊，否者对应控件将无法有效的执行！
 
 ## 下载版本差异
 
@@ -151,7 +155,7 @@
 
 2.[MC百科](https://www.mcmod.cn/class/9254.html)
 
-3.[MCBBS](https://www.mcbbs.net/thread-1449276-1-1.html)
+3.[MCBBS](https://www.mcbbs.net/thread-1449276-1-1.html)(已挂|仅此纪念)
 
 --------------------
 

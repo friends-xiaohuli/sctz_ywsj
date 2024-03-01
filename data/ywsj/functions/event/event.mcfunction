@@ -1,5 +1,3 @@
-#锁任务
-scoreboard players set e game 1
 #随机
 function ywsj:random/randoming
 #重置

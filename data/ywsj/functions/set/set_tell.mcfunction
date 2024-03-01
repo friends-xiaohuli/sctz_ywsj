@@ -12,6 +12,7 @@ execute if score basic game matches 1 run tellraw @a [{"text": "基础物资："
 execute if score mode mode matches 0 run tellraw @a [{"text": "\n当前模式：","bold": true,"color": "dark_green"},{"text":"默认模式","bold": true,"color": "green"}]
 execute if score mode mode matches 1 run tellraw @a [{"text": "\n当前模式：","bold": true,"color": "dark_green"},{"text":"独占模式","bold": true,"color": "green"}]
 tellraw @a [{"text": "初始事件点：","bold": true,"color": "dark_green"},{"score":{"name":"s","objective":"game"},"bold": true,"color": "gold"}]
+tellraw @a [{"text": "事件时间：","bold": true,"color": "dark_green"},{"score":{"name":"ts","objective":"game"},"bold": true,"color": "gold"}]
 tellraw @a [{"text": "边界大小：","bold": true,"color": "dark_green"},{"score":{"name":"worldborder","objective":"game"},"bold": true,"color": "gold"}]
 tellraw @a [{"text": "=========================","bold": true,"color": "dark_green"}]
 

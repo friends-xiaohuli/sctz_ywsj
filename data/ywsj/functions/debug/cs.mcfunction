@@ -23,8 +23,7 @@ tellraw @a [{"text": "\n\n\n随机事件已触发...","color": "red"}]
 tellraw @a [{"text": "限时30秒内完成对应任务!","bold": true,"color": "green"}]
 title @a subtitle [{"text": "限时30秒内完成对应任务!","bold": true,"color": "green"}]
 title @a title [{"text": "随机事件已触发...","color": "red"}]
-#锁任务
-scoreboard players set e game 1
+
 #随机
 scoreboard players set r random 168
 #重置
