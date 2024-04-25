@@ -9,6 +9,7 @@ execute if score nr game matches 1 run tellraw @a [{"text": "自然恢复：","b
 execute if score dc game matches 1 run tellraw @a [{"text": "\n一条命：","bold": true,"color": "dark_green"},{"text":"开启","bold": true,"color": "green"}]
 execute if score ecd game matches 0 run tellraw @a [{"text": "事件无冷却：","bold": true,"color": "dark_green"},{"text":"开启","bold": true,"color": "green"}]
 execute if score basic game matches 1 run tellraw @a [{"text": "基础物资：","bold": true,"color": "dark_green"},{"text":"开启","bold": true,"color": "green"}]
+execute if score dim game matches 1 run tellraw @a [{"text": "钻石可提交：","bold": true,"color": "dark_green"},{"text":"开启","bold": true,"color": "green"}]
 execute if score mode mode matches 0 run tellraw @a [{"text": "\n当前模式：","bold": true,"color": "dark_green"},{"text":"默认模式","bold": true,"color": "green"}]
 execute if score mode mode matches 1 run tellraw @a [{"text": "\n当前模式：","bold": true,"color": "dark_green"},{"text":"独占模式","bold": true,"color": "green"}]
 tellraw @a [{"text": "初始事件点：","bold": true,"color": "dark_green"},{"score":{"name":"s","objective":"game"},"bold": true,"color": "gold"}]

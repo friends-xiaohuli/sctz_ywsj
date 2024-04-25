@@ -1,0 +1,1 @@
+execute as @a[team=player] at @s if items entity @s weapon.offhand diamond run say 1
