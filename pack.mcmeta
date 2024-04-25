@@ -1,15 +1,20 @@
 {
-    "pack": {
-        "pack_format": 26,
-        "description": [
-			{
-				"text":"生存挑战之意外事件",
-				"color":"#FFCCFF"
-			},
-			{
-				"text":"\nby 霜澪是只白狐ya",
-				"color":"#66CCFF"
-			}
-		]
-    }
-}
+	"pack": {
+	  "pack_format": 43,
+	  "supported_formats": {
+		"min_inclusive": 43,
+		"max_inclusive": 43
+	  },
+	  "description": [
+		{
+		  "text": "只要听话就不会死!",
+		  "color": "#FFCCFF"
+		},
+		{
+		  "text": "\nby 霜澪是只白狐ya",
+		  "color": "#66CCFF"
+		}
+	  ]
+	}
+  }
+  

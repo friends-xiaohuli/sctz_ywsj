@@ -1,6 +1,8 @@
 # sctz_ywsj
 
- 生存挑战之意外事件CN
+ ~~曾用名：生存挑战之意外事件CN~~
+
+ 只要听话就不会死!CN
 
 --------------------
 
@@ -15,7 +17,7 @@
 
 ## 版本说明
 
-***1.20.4 测试通过，请按照游戏版本选择对应数据包版本**
+***1.20.5 仍在测试，请按照游戏版本选择对应数据包版本**
 
 |  数据包版本   |  支持的游戏版本  |
 |  :----: |:----:|
@@ -156,6 +158,20 @@
 2.[MC百科](https://www.mcmod.cn/class/9254.html)
 
 3.[MCBBS](https://www.mcbbs.net/thread-1449276-1-1.html)(已挂|仅此纪念)
+
+## 实况
+
+### @南镇st 
+[【任 务 大 作 战】](https://www.bilibili.com/video/BV1SC41137ZZ) 24.4.17
+
+bilibili源 dy ks均有
+
+### @佳楠很难 
+[【指定任务挑战】](https://www.bilibili.com/video/BV1Ut421j7pw) 24.4.21
+
+[【指定任务挑战下半段】](https://www.bilibili.com/video/BV1gp421Q7Es)  24.4.22
+
+bilibili源 dy ks均有
 
 --------------------
 
