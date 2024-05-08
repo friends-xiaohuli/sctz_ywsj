@@ -11,10 +11,15 @@
 
 
 #伪开始游戏
-scoreboard players set nogame debug 1
-
+# scoreboard players set nogame debug 1
 gamerule sendCommandFeedback true
-team join player @a
+# team join player @a
+
+
+scoreboard players set morenum debug 1
+scoreboard players set ecd game 0
+scoreboard objectives setdisplay sidebar event
+
 
 #region伪任务测试（需开始游戏）
 

@@ -14,7 +14,7 @@
         ],
         "items": [
           {
-            "tag": "minecraft:logs",
+            "items": "#minecraft:logs",
             "count": {
               "min": 33
             }

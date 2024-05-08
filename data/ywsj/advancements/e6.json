@@ -14,7 +14,7 @@
         ],
         "items": [
           {
-            "tag": "minecraft:planks",
+            "items": "#minecraft:planks",
             "count": 64
           }
         ]

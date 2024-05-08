@@ -13,7 +13,7 @@
           }
         ],
         "item": {
-          "tag": "minecraft:buttons"
+          "items": "#minecraft:buttons"
         }
       }
     }

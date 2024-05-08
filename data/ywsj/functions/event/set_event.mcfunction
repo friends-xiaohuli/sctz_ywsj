@@ -240,10 +240,22 @@ execute if score r random matches 235 run scoreboard players set e e235 1
 
 
 #endregion
+
+
+scoreboard players reset check event
+scoreboard players add event event 1
+
+#title
+function ywsj:event/event_title
+
+
+#debug模式
 execute if score morenum debug matches 1 run tellraw @a [{"text": "当前事件编号：","bold": true,"color": "yellow"},{"score":{"name":"r","objective":"random"},"color": "dark_red"}]
+#记录
+function ywsj:event/r_event
 
 #特殊事件开放
-scoreboard players enable @a 168
+execute if score r random matches 168 run scoreboard players enable @a 168
 
 #执行
 schedule function ywsj:event/random_event/ini 2

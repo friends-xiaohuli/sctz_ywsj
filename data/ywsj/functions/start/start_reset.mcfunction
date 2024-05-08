@@ -9,6 +9,7 @@ kill @e[type=armor_stand,tag=rp]
 kill @e[type=armor_stand,tag=center]
 tag @a remove rp
 execute store result score cd countdown run bossbar get countdown max
+scoreboard players reset * event
 scoreboard players set cd countdown -1
 scoreboard players reset * ifwater
 scoreboard players set iswater ifwater 0

@@ -17,7 +17,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "minecraft:wooden_slabs"
+                "blocks": "#minecraft:wooden_slabs"
               }
             }
           }

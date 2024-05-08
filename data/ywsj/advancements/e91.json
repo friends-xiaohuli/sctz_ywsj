@@ -17,7 +17,7 @@
             "predicate": {
               "stepping_on": {
                 "block": {
-                  "tag":"minecraft:beds"
+                  "blocks": "#minecraft:beds"
                 }
               }
             }

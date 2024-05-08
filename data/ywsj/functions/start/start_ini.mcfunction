@@ -9,5 +9,6 @@ effect give @a saturation 99999 255
 effect give @a mining_fatigue 99999 255
 effect give @a water_breathing 99999 255
 execute as @a at @s run attribute @s generic.jump_strength base set 0
+execute as @a at @s run attribute @s generic.movement_speed base set 0
 tellraw @a [{"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n正在初始化请稍等...","color": "dark_red"}]
 schedule function ywsj:start/start_reset 1s

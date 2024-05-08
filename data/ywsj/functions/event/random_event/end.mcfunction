@@ -248,7 +248,7 @@ execute if score e e240 matches 1 run execute as @a[gamemode=survival] run execu
 #endregion
 
 #debug恢复积分榜
-scoreboard objectives setdisplay sidebar score_show
+# scoreboard objectives setdisplay sidebar score_show
 
 
 scoreboard players operation f end = sur_player game

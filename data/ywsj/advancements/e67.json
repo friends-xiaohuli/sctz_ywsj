@@ -17,7 +17,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "minecraft:wool_carpets"
+                "blocks": "#minecraft:wool_carpets"
               }
             }
           }

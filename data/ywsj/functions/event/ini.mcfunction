@@ -391,6 +391,9 @@ function ywsj:event/random_event/e191/ini
 #endregion
 
 #常规初始化
+scoreboard objectives remove event
+scoreboard objectives add event dummy
+
 scoreboard objectives add time dummy
 scoreboard players set sptime time 0
 scoreboard players set time time 0
