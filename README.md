@@ -166,6 +166,8 @@ V0.43版本已经完成了唯一事件的判定，重复事件将不会出现在
 
 3.[MCBBS](https://www.mcbbs.net/thread-1449276-1-1.html)(已挂|仅此纪念)
 
+4.[苦力怕论坛](https://klpbbs.com/thread-136943-1-1.html)
+
 ## 实况
 
 ### @南镇st 
