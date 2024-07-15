@@ -41,3 +41,4 @@ execute if score cd countdown matches 100 run title @a title {"text": ""}
 execute if score cd countdown matches 100 run title @a subtitle {"text":"倒计时5秒","color": "yellow","bold": true}
 execute if score cd countdown matches 80 run title @a title {"text": ""}
 execute if score cd countdown matches 80 run title @a subtitle {"text": ""}
+

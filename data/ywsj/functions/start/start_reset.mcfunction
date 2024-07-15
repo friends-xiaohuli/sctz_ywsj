@@ -13,6 +13,7 @@ scoreboard players reset * event
 scoreboard players set cd countdown -1
 scoreboard players reset * ifwater
 scoreboard players set iswater ifwater 0
+scoreboard players set @a dim 0
 scoreboard objectives setdisplay sidebar
 scoreboard players reset * score
 scoreboard players reset * score_show
