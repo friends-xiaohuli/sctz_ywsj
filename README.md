@@ -1,37 +1,36 @@
-<p style="text-align: center;">
-	<span style="font-size: 36pt; color: #e03e2d;">
-		<strong>点击前往新数据包地址！</strong>
-	</span>
-</p>
-<p style="text-align: center;">
-	<span style="font-size: 36pt;">
-		<strong>
-			<a href="https://github.com/friends-xiaohuli/ALAlisten">只要听话就不会死2</a>
-		</strong>
-	</span>
-</p>
-<p style="text-align: center;">
-	<span style="font-size: 24pt; color: #2dc26b;">
-		<strong>支持JAVA 1.21+ 完全重构 更好的分队</strong>
-	</span>
-</p>
+
+<center>
+	<b>
+		<font size=10>
+			<font color=#e03e2d>
+				点击前往新数据包地址！
+				<br />
+				<a href="https://github.com/friends-xiaohuli/ALAlisten">只要听话就不会死2</a>
+				<br />
+			</font>
+			<font color=#2dc26b>
+				支持JAVA 1.21+ 完全重构 更好的分队
+			</font>
+		</font>
+	</b>
+</center>
 
 
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
 
+<center>
+	<b>
+		<font size=10 color=#e03e2d>
+				此数据包版本已归档 ！！！
+				<br />最新语义化版本：V0.43-alpha.20
+				<br />仅支持JAVA版本：1.20.5-1.20.6
+		</font>
+	</b>
+</center>
 
-<p style="text-align: center;">
-	<span style="font-size: 24pt; color: #e03e2d; font-family: helvetica, arial, sans-serif;">
-		<strong>此数据包版本已归档 ！！！
-			<br />最新语义化版本：V0.43-alpha.20
-			<br />仅支持JAVA版本：1.20.5-1.20.6</strong>
-	</span>
-</p>
 
 # sctz_ywsj
 
