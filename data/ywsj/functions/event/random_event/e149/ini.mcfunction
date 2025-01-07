@@ -1,1 +1,1 @@
-scoreboard objectives add 149 minecraft.custom:minecraft.interact_with_grindstone 
+scoreboard objectives add 149 minecraft.custom:minecraft.interact_with_grindstone

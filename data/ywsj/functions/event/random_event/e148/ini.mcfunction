@@ -1,1 +1,1 @@
-scoreboard objectives add 148 minecraft.custom:minecraft.interact_with_cartography_table 
+scoreboard objectives add 148 minecraft.custom:minecraft.interact_with_cartography_table

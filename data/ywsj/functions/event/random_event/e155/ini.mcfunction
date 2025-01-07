@@ -1,1 +1,1 @@
-scoreboard objectives add 155 minecraft.custom:minecraft.pot_flower 
+scoreboard objectives add 155 minecraft.custom:minecraft.pot_flower

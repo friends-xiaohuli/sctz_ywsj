@@ -1,1 +1,1 @@
-scoreboard objectives add 137 minecraft.custom:minecraft.interact_with_crafting_table 
+scoreboard objectives add 137 minecraft.custom:minecraft.interact_with_crafting_table

@@ -1,1 +1,1 @@
-scoreboard objectives add 163 minecraft.mined:gold_block 
+scoreboard objectives add 163 minecraft.mined:gold_block

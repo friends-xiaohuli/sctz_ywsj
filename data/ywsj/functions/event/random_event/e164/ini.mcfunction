@@ -1,1 +1,1 @@
-scoreboard objectives add 164 minecraft.crafted:raw_copper 
+scoreboard objectives add 164 minecraft.crafted:raw_copper

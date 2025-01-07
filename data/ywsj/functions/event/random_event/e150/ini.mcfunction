@@ -1,1 +1,1 @@
-scoreboard objectives add 150 minecraft.custom:minecraft.interact_with_lectern 
+scoreboard objectives add 150 minecraft.custom:minecraft.interact_with_lectern

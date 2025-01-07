@@ -1,1 +1,1 @@
-scoreboard objectives add 143 minecraft.custom:minecraft.inspect_hopper 
+scoreboard objectives add 143 minecraft.custom:minecraft.inspect_hopper
