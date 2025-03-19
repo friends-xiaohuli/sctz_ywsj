@@ -207,14 +207,22 @@ V0.43版本已经完成了唯一事件的判定，重复事件将不会出现在
 ## 实况
 
 ### @南镇st 
-[【任 务 大 作 战】](https://www.bilibili.com/video/BV1SC41137ZZ) 24.4.17
+[【任 务 大 作 战】](https://www.bilibili.com/video/BV1SC41137ZZ) 24.04.17
 
 bilibili源 dy ks均有
 
 ### @佳楠很难 
-[【指定任务挑战】](https://www.bilibili.com/video/BV1Ut421j7pw) 24.4.21
+[【指定任务挑战】](https://www.bilibili.com/video/BV1Ut421j7pw) 24.04.21
 
-[【指定任务挑战下半段】](https://www.bilibili.com/video/BV1gp421Q7Es)  24.4.22
+[【指定任务挑战下半段】](https://www.bilibili.com/video/BV1gp421Q7Es)  24.04.22
+
+bilibili源 dy ks均有
+
+### @谬木立羽
+[【我的世界，但“不听话就会死”？】](https://www.bilibili.com/video/BV1rbsse4EVF) 24.08.27
+
+### @我的世界小黑犬解说
+[【当我们要不断「完成任务」！才能活下去！】](https://www.bilibili.com/video/BV1fAQoYZEej) 25.03.19
 
 bilibili源 dy ks均有
 
