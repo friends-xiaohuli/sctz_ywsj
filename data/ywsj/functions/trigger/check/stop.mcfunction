@@ -1,5 +1,5 @@
 scoreboard players set game game 2
-function ywsj:trigger/ini
+function ywsj:trigger/res
 execute as @a at @s run spreadplayers ~ ~ 0 1 false @s
 
 execute as @a at @s run attribute @s generic.jump_strength base set 0

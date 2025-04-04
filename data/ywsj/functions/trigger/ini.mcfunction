@@ -17,6 +17,7 @@ scoreboard objectives add recover trigger
 scoreboard objectives add skip_voting dummy
 scoreboard objectives add Agree_skip trigger
 scoreboard objectives add Refuse_skip trigger
+scoreboard players set refuse skip_voting 0
 
 #强制跳过
 scoreboard objectives add Force_skip trigger

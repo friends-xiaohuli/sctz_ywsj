@@ -13,4 +13,3 @@ scoreboard players set basic game 0
 scoreboard players set ecd game 1
 scoreboard players set ts game 30
 
-scoreboard objectives add book trigger

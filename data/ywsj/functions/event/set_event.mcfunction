@@ -245,9 +245,13 @@ execute if score r random matches 235 run scoreboard players set e e235 1
 scoreboard players reset check event
 scoreboard players add event event 1
 
+
 #title
 function ywsj:event/event_title
 
+#重置跳过状态
+function ywsj:trigger/skip/res
+scoreboard players set refuse skip_voting 0
 
 #debug模式
 execute if score morenum debug matches 1 run tellraw @a [{"text": "当前事件编号：","bold": true,"color": "yellow"},{"score":{"name":"r","objective":"random"},"color": "dark_red"}]

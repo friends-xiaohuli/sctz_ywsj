@@ -256,4 +256,7 @@ scoreboard players operation f end -= s end
 
 execute if score s end matches 1.. run schedule function ywsj:event/random_event/end_s 1
 execute if score f end matches 1.. run schedule function ywsj:event/random_event/end_f 1
+
+execute if score s end matches 0 run function ywsj:event/random_event/end_return
+
 schedule function ywsj:event/reset 3

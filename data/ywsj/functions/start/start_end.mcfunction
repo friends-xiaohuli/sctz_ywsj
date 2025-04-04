@@ -11,7 +11,7 @@ effect clear @a
 time set day
 weather clear
 scoreboard players reset * dc
-function ywsj:start/start_basic
+clear @a
 effect give @a slowness 6 255
 effect give @a resistance 6 255
 effect give @a invisibility 6 255
