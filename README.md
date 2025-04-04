@@ -228,7 +228,7 @@ bilibili源 dy ks均有
 
 ### @大炒面制造者Cen
 
-[【当你无法「驯服一匹马」就会被淘汰出局？？！】](https://www.bilibili.com/video/BV1YuZUY5ECv) 25.4.4
+[【当你无法「驯服一匹马」就会被淘汰出局？？！】](https://www.bilibili.com/video/BV1YuZUY5ECv) 25.04.04
 
 --------------------
 

@@ -8,17 +8,17 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "e35": 0
+              "e169": 0
             }
           }
         ],
         "item": {
-          "items": "#ywsj:dye"
+          "items": "#minecraft:dyeable"
         }
       }
     }
   },
   "rewards": {
-    "function": "ywsj:event/random_event/e35/s"
+    "function": "ywsj:event/random_event/e169/s"
   }
 }

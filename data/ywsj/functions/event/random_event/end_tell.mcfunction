@@ -292,3 +292,6 @@ execute if score e e287 matches 1 run title @a subtitle [{"text": "事件结束"
 execute if score e e288 matches 1 run title @a subtitle [{"text": "事件结束","color": "dark_aqua"},{"text": "|","color": "gray"},{"text": "事件编号#288","color": "dark_green"}]
 execute if score e e289 matches 1 run title @a subtitle [{"text": "事件结束","color": "dark_aqua"},{"text": "|","color": "gray"},{"text": "事件编号#289","color": "dark_green"}]
 execute if score e e290 matches 1 run title @a subtitle [{"text": "事件结束","color": "dark_aqua"},{"text": "|","color": "gray"},{"text": "事件编号#290","color": "dark_green"}]
+
+
+#endregion

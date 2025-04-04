@@ -167,7 +167,7 @@ execute if score e e165 matches 1 run title @a actionbar [{"text": "挖掘一个
 execute if score e e166 matches 1 run title @a actionbar [{"text": "挖掘一个铜块","color": "light_purple"}]
 execute if score e e167 matches 1 run title @a actionbar [{"text": "制作一个避雷针","color": "light_purple"}]
 execute if score e e168 matches 1 run title @a actionbar [{"text": "聊天栏输入“/trigger 168”","color": "light_purple"}]
-execute if score e e169 matches 1 run title @a actionbar [{"text": "","color": "light_purple"}]
+execute if score e e169 matches 1 run title @a actionbar [{"text": "拾取任意一种可被染色的物品(需由实体扔出)","color": "light_purple"}]
 execute if score e e170 matches 1 run title @a actionbar [{"text": "","color": "light_purple"}]
 execute if score e e171 matches 1 run title @a actionbar [{"text": "","color": "light_purple"}]
 execute if score e e172 matches 1 run title @a actionbar [{"text": "","color": "light_purple"}]
