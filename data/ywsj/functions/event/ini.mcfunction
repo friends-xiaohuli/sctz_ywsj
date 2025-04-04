@@ -301,7 +301,7 @@ scoreboard objectives remove 165
 scoreboard objectives remove 166
 scoreboard objectives remove 167
 scoreboard objectives remove 168
-scoreboard objectives remove 169
+
 scoreboard objectives remove 170
 
 #endregion
@@ -363,7 +363,7 @@ function ywsj:event/random_event/e165/ini
 function ywsj:event/random_event/e166/ini
 function ywsj:event/random_event/e167/ini
 function ywsj:event/random_event/e168/ini
-function ywsj:event/random_event/e169/ini
+
 function ywsj:event/random_event/e170/ini
 function ywsj:event/random_event/e171/ini
 function ywsj:event/random_event/e172/ini
