@@ -1,5 +1,5 @@
 
-execute if score game game matches 1 run function ywsj:trigger/check
+execute if score game game matches 1.. run function ywsj:trigger/check
 execute if score game game matches 0 run function ywsj:trigger/nogamecheck
 
 scoreboard players enable @a Agree_skip

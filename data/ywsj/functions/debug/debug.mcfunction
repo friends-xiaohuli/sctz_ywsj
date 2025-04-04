@@ -8,3 +8,5 @@ execute if score nogame debug matches 1 run function ywsj:trigger/tick
 
 #morenum 展示更多为位置的事件编号
 
+#绕过开始游戏倒计时
+execute if score nogame debug matches 1 if score cd countdown matches 0.. run scoreboard players remove cd countdown 1

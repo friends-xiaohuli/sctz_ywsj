@@ -1,6 +1,6 @@
 #同步计分板and倒计时
 execute store result bossbar countdown value run scoreboard players get cd countdown
-execute if score cd countdown matches 0.. run scoreboard players remove cd countdown 1
+execute if score game game matches 1 if score cd countdown matches 0.. run scoreboard players remove cd countdown 1
 
 #倒计时颜色
 execute if score cd countdown matches 101.. run bossbar set countdown color green
