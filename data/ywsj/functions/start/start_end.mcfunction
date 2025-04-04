@@ -1,7 +1,7 @@
 scoreboard players operation @a[team=player] score = s game
 scoreboard players operation @a[team=player] score_show = s game
 scoreboard objectives setdisplay sidebar score_show
-function ywsj:score/get_score
+
 gamemode survival @a[team=player]
 gamemode spectator @a[team=!player]
 team modify player collisionRule always

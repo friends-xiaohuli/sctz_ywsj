@@ -21,7 +21,7 @@ execute if score e e19 matches 1 run title @a actionbar [{"text": "拾取一个�
 execute if score e e20 matches 1 run title @a actionbar [{"text": "使用木质锄头锄地","color": "light_purple"}]
 execute if score e e21 matches 1 run title @a actionbar [{"text": "使用钻石锄头锄地","color": "light_purple"}]
 execute if score e e22 matches 1 run title @a actionbar [{"text": "使用铁质锹子铲地","color": "light_purple"}]
-execute if score e e23 matches 1 run title @a actionbar [{"text": "使用木质锄头锄地","color": "light_purple"}]
+execute if score e e23 matches 1 run title @a actionbar [{"text": "使用木质锹子铲地","color": "light_purple"}]
 execute if score e e24 matches 1 run title @a actionbar [{"text": "拾取任意按钮(需由实体扔出)","color": "light_purple"}]
 execute if score e e25 matches 1 run title @a actionbar [{"text": "食用一个面包","color": "light_purple"}]
 execute if score e e26 matches 1 run title @a actionbar [{"text": "食用一个腐肉","color": "light_purple"}]

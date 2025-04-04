@@ -9,3 +9,5 @@ function ywsj:debug/tick
 execute if score game game matches 1 run function ywsj:mode/tick
 execute if score game game matches 0 run function ywsj:xyz/tick
 function ywsj:set/tick
+function ywsj:trigger/tick
+
