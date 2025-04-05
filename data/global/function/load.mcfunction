@@ -1,0 +1,1 @@
+# tellraw @a [{"text":"\n-----","color":"gold","bold":true},{"text":"Datapack Created by WhiteFox_rua","color":"aqua","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"[B站]","color":"gold"}]},"clickEvent":{"action":"open_url","value":"https://space.bilibili.com/515094027"}},{"text":"-----","color":"gold","bold":true}]

@@ -1,0 +1,17 @@
+{
+    "display": {
+      "title": "游玩数据包！",
+      "description": "感谢您下载并游玩此数据包",
+      "icon": {
+        "id": "minecraft:knowledge_book"
+      },
+      "background": "minecraft:textures/block/gray_concrete.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
