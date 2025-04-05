@@ -1,7 +1,7 @@
 function ywsj:random/ini
 function ywsj:gamebook/ini
-gamerule doImmediateRespawn true
-gamerule sendCommandFeedback false
+# gamerule doImmediateRespawn true
+# gamerule sendCommandFeedback false
 function ywsj:countdown/ini
 function ywsj:start/ini
 function ywsj:event/ini
@@ -15,3 +15,9 @@ function ywsj:mode/ini
 function ywsj:ifwater/ini
 function ywsj:xyz/ini
 function ywsj:trigger/ini
+
+
+function ywsj:event/macrosargs
+
+
+schedule function ywsj:debug/cs 3s
