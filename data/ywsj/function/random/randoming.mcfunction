@@ -7,4 +7,6 @@
 
 
 #仅1.20.2以上可用
-execute store result score r random run random value 0..169 random
+$execute store result score r random run random value 0..$(Total) random
+
+execute if score debug debug matches 1 run function ywsj:random/tell with storage ywsj:eventlist args.N

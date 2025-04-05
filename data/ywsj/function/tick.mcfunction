@@ -1,5 +1,5 @@
 function ywsj:countdown/tick
-execute if score game game matches 1 run function ywsj:event/tick
+function ywsj:event/tick
 function ywsj:score/loop
 execute if score game game matches 1 run function ywsj:set/set_tick
 

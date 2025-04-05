@@ -3,17 +3,20 @@
 #清除宏列表
 data remove storage ywsj:eventlist args
 
+#计数
+data modify storage ywsj:eventlist args.N set value {Total:169,Finished:0,}
+
 #任务列表
     data modify storage ywsj:eventlist args.e0 set value {id:0,text:"放置一个石头",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e1 set value {id:1,text:"物品栏仅包含1组堆叠圆石其余位置留空(拾取刷新判定)",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e2 set value {id:2,text:"击败一只僵尸",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e3 set value {id:3,text:"被苦力怕炸死",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e4 set value {id:4,text:"食用一个苹果",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e5 set value {id:5,text:"繁殖一只绵羊",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e4 set value {id:4,text:"食用一个苹果",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e5 set value {id:5,text:"繁殖一只绵羊",difficulty:2,args:{}}
     data modify storage ywsj:eventlist args.e6 set value {id:6,text:"物品栏包含一组堆叠的任意木板(拾取刷新判定)",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e7 set value {id:7,text:"召唤一只铁傀儡",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e8 set value {id:8,text:"召唤一只雪傀儡",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e9 set value {id:9,text:"驯服一只马",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e7 set value {id:7,text:"召唤一只铁傀儡",difficulty:3,args:{}}
+    data modify storage ywsj:eventlist args.e8 set value {id:8,text:"召唤一只雪傀儡",difficulty:3,args:{}}
+    data modify storage ywsj:eventlist args.e9 set value {id:9,text:"驯服一只马",difficulty:3,args:{}}
     data modify storage ywsj:eventlist args.e10 set value {id:10,text:"拾取一个铁锭(需由实体扔出)",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e11 set value {id:11,text:"对自己造成燃烧伤害",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e12 set value {id:12,text:"物品栏包含大于32个堆叠任意主世界原木(拾取刷新判定)",difficulty:1,args:{}}
@@ -25,32 +28,32 @@ data remove storage ywsj:eventlist args
     data modify storage ywsj:eventlist args.e18 set value {id:18,text:"拾取一个金锭(需由实体扔出)",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e19 set value {id:19,text:"拾取一个铜锭(需由实体扔出)",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e20 set value {id:20,text:"使用木质锄头锄地",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e21 set value {id:21,text:"使用钻石锄头锄地",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e21 set value {id:21,text:"使用钻石锄头锄地",difficulty:2,args:{}}
     data modify storage ywsj:eventlist args.e22 set value {id:22,text:"使用铁质锹子铲地",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e23 set value {id:23,text:"使用木质锹子铲地",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e24 set value {id:24,text:"拾取任意按钮(需由实体扔出)",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e25 set value {id:25,text:"食用一个面包",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e26 set value {id:26,text:"食用一个腐肉",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e27 set value {id:27,text:"食用一个甜浆果",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e28 set value {id:28,text:"食用一个胡萝卜",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e29 set value {id:29,text:"食用一个烤马铃薯",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e27 set value {id:27,text:"食用一个甜浆果",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e28 set value {id:28,text:"食用一个胡萝卜",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e29 set value {id:29,text:"食用一个烤马铃薯",difficulty:2,args:{}}
     data modify storage ywsj:eventlist args.e30 set value {id:30,text:"击败一只苦力怕",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e31 set value {id:31,text:"拾取一个草方块(需由实体扔出)",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e32 set value {id:32,text:"拾取一个泥土(需由实体扔出)",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e33 set value {id:33,text:"一次性对玩家造成大于5点的伤害",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e34 set value {id:34,text:"拾取一个沙砾(需由实体扔出)",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e35 set value {id:35,text:"拾取任意一种染料(需由实体扔出)",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e36 set value {id:36,text:"放置一个草方块",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e37 set value {id:37,text:"从主世界穿越到地狱下届",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e38 set value {id:38,text:"从主世界穿越到地末地",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e39 set value {id:39,text:"从地狱下届穿越到主世界",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e36 set value {id:36,text:"放置一个草方块",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e37 set value {id:37,text:"从主世界穿越到地狱下届",difficulty:4,args:{}}
+    data modify storage ywsj:eventlist args.e38 set value {id:38,text:"从主世界穿越到地末地",difficulty:4,args:{}}
+    data modify storage ywsj:eventlist args.e39 set value {id:39,text:"从地狱下届穿越到主世界",difficulty:4,args:{}}
     data modify storage ywsj:eventlist args.e40 set value {id:40,text:"放置一个工作台",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e41 set value {id:41,text:"放置一个圆石台阶",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e42 set value {id:42,text:"放置一个圆石墙",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e43 set value {id:43,text:"放置一个煤炭块",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e44 set value {id:44,text:"放置一个黏土块",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e45 set value {id:45,text:"放置一个砂土",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e46 set value {id:46,text:"放置一个红石比较器",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e46 set value {id:46,text:"放置一个红石比较器",difficulty:3,args:{}}
     data modify storage ywsj:eventlist args.e47 set value {id:47,text:"放置一个堆肥桶",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e48 set value {id:48,text:"放置一个铜块",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e49 set value {id:49,text:"放置一个书架",difficulty:1,args:{}}
@@ -61,7 +64,7 @@ data remove storage ywsj:eventlist args
     data modify storage ywsj:eventlist args.e54 set value {id:54,text:"放置一个安山岩楼梯",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e55 set value {id:55,text:"放置一个铁砧",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e56 set value {id:56,text:"放置一个木桶",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e57 set value {id:57,text:"放置一个玄武岩",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e57 set value {id:57,text:"放置一个玄武岩",difficulty:3,args:{}}
     data modify storage ywsj:eventlist args.e58 set value {id:58,text:"放置一个营火",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e59 set value {id:59,text:"放置一个钟",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e60 set value {id:60,text:"放置任意一种告示牌",difficulty:1,args:{}}
@@ -72,16 +75,16 @@ data remove storage ywsj:eventlist args
     data modify storage ywsj:eventlist args.e65 set value {id:65,text:"放置任意一种木质台阶",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e66 set value {id:66,text:"放置任意一种台阶",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e67 set value {id:67,text:"放置任意一种羊毛地毯",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e68 set value {id:68,text:"放置一个黑石",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e68 set value {id:68,text:"放置一个黑石",difficulty:3,args:{}}
     data modify storage ywsj:eventlist args.e69 set value {id:69,text:"种下任意一束花",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e70 set value {id:70,text:"种下任意一束高丛花",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e70 set value {id:70,text:"种下任意一束高丛花",difficulty:2,args:{}}
     data modify storage ywsj:eventlist args.e71 set value {id:71,text:"种下任意一束低丛花",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e72 set value {id:72,text:"放置一个酿造台",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e72 set value {id:72,text:"放置一个酿造台",difficulty:2,args:{}}
     data modify storage ywsj:eventlist args.e73 set value {id:73,text:"玩家被远程射中",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e74 set value {id:74,text:"对自己造成爆炸伤害",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e75 set value {id:75,text:"对自己造成溺水伤害",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e76 set value {id:76,text:"对自己造成摔落伤害",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e77 set value {id:77,text:"对自己造成魔法伤害",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e77 set value {id:77,text:"对自己造成魔法伤害",difficulty:2,args:{}}
     data modify storage ywsj:eventlist args.e78 set value {id:78,text:"对自己造成无视护甲穿甲伤害",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e79 set value {id:79,text:"对自己造成一次性不大于5点的伤害",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e80 set value {id:80,text:"拾取一张白纸(需由实体扔出)",difficulty:1,args:{}}
@@ -92,30 +95,30 @@ data remove storage ywsj:eventlist args
     data modify storage ywsj:eventlist args.e85 set value {id:85,text:"站在泥土上",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e86 set value {id:86,text:"站在沙子上",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e87 set value {id:87,text:"站在粘土块上",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e88 set value {id:88,text:"站在苔藓块上",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e88 set value {id:88,text:"站在苔藓块上",difficulty:2,args:{}}
     data modify storage ywsj:eventlist args.e89 set value {id:89,text:"站在橡木木板上",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e90 set value {id:90,text:"站在雪块上",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e90 set value {id:90,text:"站在雪块上",difficulty:3,args:{}}
     data modify storage ywsj:eventlist args.e91 set value {id:91,text:"站在床上",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e92 set value {id:92,text:"击败一只鸡",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e93 set value {id:93,text:"击败一只牛",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e94 set value {id:94,text:"击败一只猪",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e95 set value {id:95,text:"击败一只绵羊",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e96 set value {id:96,text:"击败一只村民",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e97 set value {id:97,text:"击败一只鳕鱼",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e98 set value {id:98,text:"击败一只鲑鱼",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e99 set value {id:99,text:"击败一只马",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e100 set value {id:100,text:"击败一只驴",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e101 set value {id:101,text:"击败一只骡",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e102 set value {id:102,text:"击败一只鱿鱼",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e103 set value {id:103,text:"击败一只河豚",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e104 set value {id:104,text:"击败一只铁傀儡",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e105 set value {id:105,text:"击败一只狼",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e106 set value {id:106,text:"击败一只溺尸",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e107 set value {id:107,text:"击败一只尸壳",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e96 set value {id:96,text:"击败一只村民",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e97 set value {id:97,text:"击败一只鳕鱼",difficulty:3,args:{}}
+    data modify storage ywsj:eventlist args.e98 set value {id:98,text:"击败一只鲑鱼",difficulty:3,args:{}}
+    data modify storage ywsj:eventlist args.e99 set value {id:99,text:"击败一只马",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e100 set value {id:100,text:"击败一只驴",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e101 set value {id:101,text:"击败一只骡",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e102 set value {id:102,text:"击败一只鱿鱼",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e103 set value {id:103,text:"击败一只河豚",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e104 set value {id:104,text:"击败一只铁傀儡",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e105 set value {id:105,text:"击败一只狼",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e106 set value {id:106,text:"击败一只溺尸",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e107 set value {id:107,text:"击败一只尸壳",difficulty:2,args:{}}
     data modify storage ywsj:eventlist args.e108 set value {id:108,text:"击败一只骷髅",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e109 set value {id:109,text:"击败一只女巫",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e110 set value {id:110,text:"击败一只史莱姆",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e111 set value {id:111,text:"击败一只僵尸村民",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e109 set value {id:109,text:"击败一只女巫",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e110 set value {id:110,text:"击败一只史莱姆",difficulty:2,args:{}}
+    data modify storage ywsj:eventlist args.e111 set value {id:111,text:"击败一只僵尸村民",difficulty:3,args:{}}
     data modify storage ywsj:eventlist args.e112 set value {id:112,text:"击败一只蜘蛛",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e113 set value {id:113,text:"击败一个玩家",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e114 set value {id:114,text:"潜行移动5距离",difficulty:1,args:{}}
@@ -123,20 +126,20 @@ data remove storage ywsj:eventlist args
     data modify storage ywsj:eventlist args.e116 set value {id:116,text:"打开1次木桶",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e117 set value {id:117,text:"打开30次木桶",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e118 set value {id:118,text:"造成的伤害总量大于5",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e119 set value {id:119,text:"敲5次钟",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e119 set value {id:119,text:"敲5次钟",difficulty:2,args:{}}
     data modify storage ywsj:eventlist args.e120 set value {id:120,text:"打开5次箱子",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e121 set value {id:121,text:"打开60次箱子",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e122 set value {id:122,text:"坐船移动20距离",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e123 set value {id:123,text:"骑马移动5距离",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e123 set value {id:123,text:"骑马移动5距离",difficulty:3,args:{}}
     data modify storage ywsj:eventlist args.e124 set value {id:124,text:"攀爬10距离",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e125 set value {id:125,text:"飞行10距离",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e125 set value {id:125,text:"飞行10距离",difficulty:3,args:{}}
     data modify storage ywsj:eventlist args.e126 set value {id:126,text:"疾跑10距离",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e127 set value {id:127,text:"疾跑50距离",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e128 set value {id:128,text:"疾跑100距离",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e129 set value {id:129,text:"游泳20距离",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e130 set value {id:130,text:"游泳50距离",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e131 set value {id:131,text:"30内不死亡",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e132 set value {id:132,text:"与村民交互1次",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e132 set value {id:132,text:"与村民交互1次",difficulty:2,args:{}}
     data modify storage ywsj:eventlist args.e133 set value {id:133,text:"击杀任意5个生物",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e134 set value {id:134,text:"跳跃10次",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e135 set value {id:135,text:"跳跃30次",difficulty:1,args:{}}
@@ -146,7 +149,7 @@ data remove storage ywsj:eventlist args
     data modify storage ywsj:eventlist args.e139 set value {id:139,text:"与熔炉交互3次",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e140 set value {id:140,text:"与发射器交互1次",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e141 set value {id:141,text:"与投掷器交互1次",difficulty:1,args:{}}
-    data modify storage ywsj:eventlist args.e142 set value {id:142,text:"与末影箱交互1次",difficulty:1,args:{}}
+    data modify storage ywsj:eventlist args.e142 set value {id:142,text:"与末影箱交互1次",difficulty:3,args:{}}
     data modify storage ywsj:eventlist args.e143 set value {id:143,text:"与漏斗交互1次",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e144 set value {id:144,text:"与铁砧交互1次",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e145 set value {id:145,text:"与高炉交互1次",difficulty:1,args:{}}
@@ -247,4 +250,3 @@ data remove storage ywsj:eventlist args
     data modify storage ywsj:eventlist args.e240 set value {id:240,text:"",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e241 set value {id:241,text:"",difficulty:1,args:{}}
     data modify storage ywsj:eventlist args.e242 set value {id:242,text:"",difficulty:1,args:{}}
-
