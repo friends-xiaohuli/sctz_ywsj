@@ -17,7 +17,7 @@ function ywsj:xyz/ini
 function ywsj:trigger/ini
 
 
-function ywsj:event/macrosargs
+
 
 
 schedule function ywsj:debug/cs 3s

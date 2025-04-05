@@ -2,9 +2,14 @@
 
 #清除宏列表
 data remove storage ywsj:eventlist args
+data remove storage ywsj:pre_eventlist args
+
 
 #计数
-data modify storage ywsj:eventlist args.N set value {Total:169,Finished:0,}
+execute store result storage ywsj:eventlist args.N.now int 1 run scoreboard players operation r random = r random
+execute store result storage ywsj:eventlist args.N.Total int 1 run scoreboard players operation MaxN event = MaxN event
+
+
 
 #任务列表
     data modify storage ywsj:eventlist args.e0 set value {id:0,text:"放置一个石头",difficulty:1,args:{}}
