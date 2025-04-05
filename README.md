@@ -1,44 +1,8 @@
-
-<center>
-	<b>
-		<font size=10>
-			<font color=#e03e2d>
-				点击前往新数据包地址！
-				<br />
-				<a href="https://github.com/friends-xiaohuli/ALAlisten">只要听话就不会死2</a>
-				<br />
-			</font>
-			<font color=#2dc26b>
-				支持JAVA 1.21+ 完全重构 更好的分队
-			</font>
-		</font>
-	</b>
-</center>
-
-
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-
-<center>
-	<b>
-		<font size=10 color=#e03e2d>
-				此数据包版本已归档 ！！！
-				<br />最新语义化版本：V0.43-alpha.20
-				<br />仅支持JAVA版本：1.20.5-1.20.6
-		</font>
-	</b>
-</center>
-
-
-
-
 # sctz_ywsj
 
  ~~曾用名：生存挑战之意外事件CN~~
 
- 只要听话就不会死!CN
+ 只要听话就不会死!CN 复活版
 ![PixPin_2024-05-08_17-34-42.png](https://s2.loli.net/2024/05/08/lFwkGUSQHBm7NgE.png)
 --------------------
 
@@ -53,16 +17,8 @@
 
 ## 版本说明
 
-***1.20.5 测试正常，请按照游戏版本选择对应数据包版本**
+***最新版的数据包请使用1.21.4游玩 测试正常**
 
-|  数据包版本   |  支持的游戏版本  |
-|  :----: |:----:|
-| V0.10~0.16  | 1.19.X |
-| V0.20~0.36  | 1.20-1.20.1 |
-| V0.40~0.43  | 1.20.2-1.20.4 |
-| V0.43+  | 1.20.5-1.20.6 |
-
-可能出现包体过低提示，请根据上表格进行游玩
 
 ## 前情提要
 
