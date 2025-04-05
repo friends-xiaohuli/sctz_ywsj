@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:diamond"
+  ],
+  "result": {
+    "id": "minecraft:diamond",
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"分数道具\",\"color\": \"dark_red\"}",
+      "minecraft:lore": [
+        "{\"text\":\"合成放入背包即可自动提交物品\",\"color\": \"dark_green\"}"
+      ]
+    }
+  }
+}
