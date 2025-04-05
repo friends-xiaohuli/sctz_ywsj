@@ -9,4 +9,8 @@
 #仅1.20.2以上可用
 $execute store result score r random run random value 0..$(Total) random
 
+
+execute store result storage ywsj:eventlist args.N.nowN int 1 run scoreboard players operation r random = r random
+function ywsj:random/set with storage ywsj:eventlist args.N
+
 execute if score debug debug matches 1 run function ywsj:random/tell with storage ywsj:eventlist args.N

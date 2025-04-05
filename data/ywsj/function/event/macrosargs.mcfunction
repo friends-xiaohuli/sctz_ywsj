@@ -4,9 +4,9 @@
 data remove storage ywsj:eventlist args
 data remove storage ywsj:pre_eventlist args
 
+data modify storage ywsj:eventlist args.N.Finished set value 0
 
-#计数
-execute store result storage ywsj:eventlist args.N.now int 1 run scoreboard players operation r random = r random
+#计数复制
 execute store result storage ywsj:eventlist args.N.Total int 1 run scoreboard players operation MaxN event = MaxN event
 
 
