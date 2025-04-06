@@ -1,6 +1,6 @@
 #region伪任务测试（debug）
 
-scoreboard players set nogame debug 1
+
 scoreboard players set mode mode 1
 # scoreboard objectives setdisplay sidebar 128
 scoreboard players set r random 35
@@ -9,14 +9,15 @@ function ywsj:event/set_event
 
 #endregion
 
+scoreboard players set debug debug 1
 
 #伪开始游戏
-# scoreboard players set nogame debug 1
+scoreboard players set nogame debug 1
 gamerule sendCommandFeedback true
-# team join player @a
+team join player @a
 
 
-scoreboard players set debug debug 1
+
 scoreboard players set morenum debug 1
 scoreboard players set ecd game 0
 scoreboard objectives setdisplay sidebar event

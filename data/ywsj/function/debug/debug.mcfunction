@@ -2,7 +2,7 @@
 
 
 #nogame 在不进行游戏的情况下运行事件判定
-execute if score nogame debug matches 1 run function ywsj:event/random_event/tick
+execute if score nogame debug matches 1 if score nowD event matches 1.. run function ywsj:event/end/main
 execute if score nogame debug matches 1 run function ywsj:mode/tick
 execute if score nogame debug matches 1 run function ywsj:trigger/tick
 

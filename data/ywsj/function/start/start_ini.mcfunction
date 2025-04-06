@@ -11,7 +11,7 @@ execute as @a at @s run attribute @s movement_speed base set 0
 execute as @a at @s run attribute @s block_break_speed base set 0
 execute as @a at @s run attribute @s block_interaction_range base set 0
 execute as @a at @s run attribute @s entity_interaction_range base set 0
-execute as @a at @s run attribute @s gravity base set 0
+
 
 
 tellraw @a [{"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n正在初始化请稍等...","color": "dark_red"}]

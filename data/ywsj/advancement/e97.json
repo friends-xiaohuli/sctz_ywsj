@@ -25,6 +25,6 @@
     }
   },
   "rewards": {
-    "function": "ywsj:event/random_event/e97/s"
+    "function": "ywsj:event/achieve"
   }
 }

@@ -8,6 +8,18 @@ scoreboard players set MaxN event 169
 #预处理
 scoreboard players set preN event 0
 
+#检查状态
+scoreboard players set Pstate event 0
+
+#事件准则个数
+scoreboard players set criteria event 0
+
+#当前事件锁
+scoreboard players set now event 0
+scoreboard players set nowD event -1
+
+
+
 #难度总计个数处理
 scoreboard players set D-easy event 0
 scoreboard players set D-general event 0
@@ -28,14 +40,13 @@ scoreboard players set pre time 0
 scoreboard players set sptime time 0
 #总用时
 scoreboard players set time time 0
-#事件倒计时
-scoreboard players set event time 0
+
 
 #完成统计
-scoreboard objectives add end dummy
+scoreboard objectives add End dummy
 #  s完成  f未完成  统计
-scoreboard players set s end 0
-scoreboard players set f end 0
+scoreboard players set s End 0
+scoreboard players set f End 0
 
 
 #json合并

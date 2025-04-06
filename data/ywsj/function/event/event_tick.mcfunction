@@ -1,0 +1,60 @@
+
+#特殊事件开放
+execute if score r random matches 168 run scoreboard players enable @a 168
+
+execute as @a[scores={e114=0}] at @s if score @s 114 matches 500.. run function ywsj:event/achieve
+execute as @a[scores={e115=0}] at @s if score @s 115 matches 300.. run function ywsj:event/achieve
+execute as @a[scores={e116=0}] at @s if score @s 116 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e117=0}] at @s if score @s 117 matches 30.. run function ywsj:event/achieve
+execute as @a[scores={e118=0}] at @s if score @s 118 matches 50.. run function ywsj:event/achieve
+execute as @a[scores={e119=0}] at @s if score @s 119 matches 5.. run function ywsj:event/achieve
+execute as @a[scores={e120=0}] at @s if score @s 120 matches 5.. run function ywsj:event/achieve
+execute as @a[scores={e121=0}] at @s if score @s 121 matches 60.. run function ywsj:event/achieve
+execute as @a[scores={e122=0}] at @s if score @s 122 matches 2000.. run function ywsj:event/achieve
+execute as @a[scores={e123=0}] at @s if score @s 123 matches 500.. run function ywsj:event/achieve
+execute as @a[scores={e124=0}] at @s if score @s 124 matches 1000.. run function ywsj:event/achieve
+execute as @a[scores={e125=0}] at @s if score @s 125 matches 1000.. run function ywsj:event/achieve
+execute as @a[scores={e126=0}] at @s if score @s 126 matches 1000.. run function ywsj:event/achieve
+execute as @a[scores={e127=0}] at @s if score @s 127 matches 5000.. run function ywsj:event/achieve
+execute as @a[scores={e128=0}] at @s if score @s 128 matches 10000.. run function ywsj:event/achieve
+execute as @a[scores={e129=0}] at @s if score @s 129 matches 2000.. run function ywsj:event/achieve
+execute as @a[scores={e130=0}] at @s if score @s 130 matches 5000.. run function ywsj:event/achieve
+execute as @a[scores={e131=0}] at @s if score @s 131 matches 600.. run function ywsj:event/achieve
+execute as @a[scores={e132=0}] at @s if score @s 132 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e133=0}] at @s if score @s 133 matches 5.. run function ywsj:event/achieve
+execute as @a[scores={e134=0}] at @s if score @s 134 matches 10.. run function ywsj:event/achieve
+execute as @a[scores={e135=0}] at @s if score @s 135 matches 30.. run function ywsj:event/achieve
+execute as @a[scores={e136=0}] at @s if score @s 136 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e137=0}] at @s if score @s 137 matches 10.. run function ywsj:event/achieve
+execute as @a[scores={e138=0}] at @s if score @s 138 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e139=0}] at @s if score @s 139 matches 3.. run function ywsj:event/achieve
+execute as @a[scores={e140=0}] at @s if score @s 140 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e141=0}] at @s if score @s 141 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e142=0}] at @s if score @s 142 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e143=0}] at @s if score @s 143 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e144=0}] at @s if score @s 144 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e145=0}] at @s if score @s 145 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e146=0}] at @s if score @s 146 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e147=0}] at @s if score @s 147 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e148=0}] at @s if score @s 148 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e149=0}] at @s if score @s 149 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e150=0}] at @s if score @s 150 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e151=0}] at @s if score @s 151 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e152=0}] at @s if score @s 152 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e153=0}] at @s if score @s 153 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e154=0}] at @s if score @s 154 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e155=0}] at @s if score @s 155 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e156=0}] at @s if score @s 156 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e157=0}] at @s if score @s 157 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e158=0}] at @s if score @s 158 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e159=0}] at @s if score @s 159 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e160=0}] at @s if score @s 160 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e161=0}] at @s if score @s 161 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e162=0}] at @s if score @s 162 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e163=0}] at @s if score @s 163 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e164=0}] at @s if score @s 164 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e165=0}] at @s if score @s 165 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e166=0}] at @s if score @s 166 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e167=0}] at @s if score @s 167 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e168=0}] at @s if score @s 168 matches 1.. run function ywsj:event/achieve
+
