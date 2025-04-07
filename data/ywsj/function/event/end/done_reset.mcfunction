@@ -21,3 +21,5 @@ $data modify storage ywsj:eventlist args.e$(id).args set value {olnycheck:1}
 
 #进度复原
 $advancement revoke @a only ywsj:e$(id)
+
+

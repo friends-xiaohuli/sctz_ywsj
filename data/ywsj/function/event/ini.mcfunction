@@ -44,14 +44,18 @@ scoreboard players set time time 0
 
 #完成统计
 scoreboard objectives add End dummy
-#  s完成  f未完成  统计
+#完成人数统计
 scoreboard players set s End 0
-scoreboard players set f End 0
+
+
+
+
+#阿拉伯数字计分板
+scoreboard objectives add numeral dummy
+scoreboard players set 1 numeral 1
+
 
 
 #json合并
 function ywsj:event/macrosargs
 
-#清除暂时不知道啥用的标签
-tag @a remove vic
-tag @a remove spe

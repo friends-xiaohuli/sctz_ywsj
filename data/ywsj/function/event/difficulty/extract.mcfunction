@@ -18,6 +18,7 @@ $execute if score debug debug matches 1 run execute if score Pstate event matche
 $execute if score debug debug matches 1 run execute if score Pstate event matches 1 run tellraw @a [{"text": "#$(id) 创建事件计分板$(criteria) 成功"}]
 
 execute if score Pstate event matches 1 run scoreboard players add criteria event 1
+
 #重置检查状态
 scoreboard players set Pstate event 0
 

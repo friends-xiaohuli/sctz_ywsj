@@ -1,7 +1,10 @@
 
 #特殊事件开放
-execute if score r random matches 168 run scoreboard players enable @a 168
+execute if score now event matches 168 run scoreboard objectives add 168 trigger
+execute if score now event matches 168 run scoreboard players enable @a 168
+execute unless score now event matches 168 run scoreboard objectives remove 168
 
+#自触发
 execute as @a[scores={e114=0}] at @s if score @s 114 matches 500.. run function ywsj:event/achieve
 execute as @a[scores={e115=0}] at @s if score @s 115 matches 300.. run function ywsj:event/achieve
 execute as @a[scores={e116=0}] at @s if score @s 116 matches 1.. run function ywsj:event/achieve

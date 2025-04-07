@@ -7,4 +7,4 @@
 
 
 scoreboard players set s End 0
-scoreboard players set f End 0
+

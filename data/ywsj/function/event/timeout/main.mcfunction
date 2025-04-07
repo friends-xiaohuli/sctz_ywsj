@@ -7,16 +7,10 @@ function ywsj:random/randoming with storage ywsj:eventlist args.N
 
 
 #唯一任务
-function ywsj:event/check
+function ywsj:event/timeout/check with storage ywsj:pre_eventlist args.now.args
 
 
-#重置
-function ywsj:event/timeout/reset
 
+execute if score Pstate event matches 1 run function ywsj:event/timeout/check_fail
+execute if score Pstate event matches 0 run function ywsj:event/timeout/check_return
 
-tellraw @a [{"text": "\n==[事件","color": "dark_red","bold": true},{"score":{"name":"Finished","objective":"event"},"bold": true,"color": "dark_red"},{"text": " #","color": "red","bold": true},{"score":{"name":"time","objective":"time"},"bold": true,"color": "red"},{"text": "]==","color": "dark_red","bold": true}]
-title @a subtitle [{"text": "随机事件已触发...","color": "red"}]
-title @a title [{"text": ""}]
-
-
-function ywsj:event/timeout/set with storage ywsj:pre_eventlist args.now

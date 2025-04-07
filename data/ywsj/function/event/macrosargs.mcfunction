@@ -37,18 +37,18 @@ execute store result storage ywsj:eventlist args.N.Total int 1 run scoreboard pl
     data modify storage ywsj:eventlist args.e22 set value {id:22,text:"使用铁质锹子铲地",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e23 set value {id:23,text:"使用木质锹子铲地",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e24 set value {id:24,text:"拾取任意按钮(需由实体扔出)",difficulty:1,criteria:"进度",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e25 set value {id:25,text:"食用一个面包",difficulty:1,criteria:"进度",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e26 set value {id:26,text:"食用一个腐肉",difficulty:1,criteria:"进度",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e27 set value {id:27,text:"食用一个甜浆果",difficulty:2,criteria:"进度",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e25 set value {id:25,text:"食用一个面包",difficulty:2,criteria:"进度",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e26 set value {id:26,text:"食用一个腐肉",difficulty:2,criteria:"进度",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e27 set value {id:27,text:"食用一个甜浆果",difficulty:3,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e28 set value {id:28,text:"食用一个胡萝卜",difficulty:2,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e29 set value {id:29,text:"食用一个烤马铃薯",difficulty:2,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e30 set value {id:30,text:"击败一只苦力怕",difficulty:1,criteria:"进度",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e31 set value {id:31,text:"拾取一个草方块(需由实体扔出)",difficulty:1,criteria:"进度",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e31 set value {id:31,text:"拾取一个草方块(需由实体扔出)",difficulty:3,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e32 set value {id:32,text:"拾取一个泥土(需由实体扔出)",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e33 set value {id:33,text:"一次性对玩家造成大于5点的伤害",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e34 set value {id:34,text:"拾取一个沙砾(需由实体扔出)",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e35 set value {id:35,text:"拾取任意一种染料(需由实体扔出)",difficulty:1,criteria:"进度",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e36 set value {id:36,text:"放置一个草方块",difficulty:2,criteria:"进度",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e36 set value {id:36,text:"放置一个草方块",difficulty:3,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e37 set value {id:37,text:"从主世界穿越到地狱(下届)",difficulty:4,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e38 set value {id:38,text:"从主世界穿越到地末地",difficulty:4,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e39 set value {id:39,text:"从地狱(下届)穿越到主世界",difficulty:4,criteria:"进度",args:{onlycheck:0}}
@@ -73,13 +73,13 @@ execute store result storage ywsj:eventlist args.N.Total int 1 run scoreboard pl
     data modify storage ywsj:eventlist args.e58 set value {id:58,text:"放置一个营火",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e59 set value {id:59,text:"放置一个钟",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e60 set value {id:60,text:"放置任意一种告示牌",difficulty:1,criteria:"进度",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e61 set value {id:61,text:"种下任意一种树苗",difficulty:1,criteria:"进度",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e61 set value {id:61,text:"种下任意一种树苗",difficulty:2,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e62 set value {id:62,text:"放置任意一种木门",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e63 set value {id:63,text:"放置任意一种门",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e64 set value {id:64,text:"放置一个铁门",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e65 set value {id:65,text:"放置任意一种木质台阶",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e66 set value {id:66,text:"放置任意一种台阶",difficulty:1,criteria:"进度",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e67 set value {id:67,text:"放置任意一种羊毛地毯",difficulty:1,criteria:"进度",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e67 set value {id:67,text:"放置任意一种羊毛地毯",difficulty:2,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e68 set value {id:68,text:"放置一个黑石",difficulty:3,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e69 set value {id:69,text:"种下任意一束花",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e70 set value {id:70,text:"种下任意一束高丛花",difficulty:2,criteria:"进度",args:{onlycheck:0}}
@@ -92,7 +92,7 @@ execute store result storage ywsj:eventlist args.N.Total int 1 run scoreboard pl
     data modify storage ywsj:eventlist args.e77 set value {id:77,text:"对自己造成魔法伤害",difficulty:2,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e78 set value {id:78,text:"对自己造成无视护甲穿甲伤害",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e79 set value {id:79,text:"对自己造成一次性不大于5点的伤害",difficulty:1,criteria:"进度",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e80 set value {id:80,text:"拾取一张白纸(需由实体扔出)",difficulty:1,criteria:"进度",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e80 set value {id:80,text:"拾取一张白纸(需由实体扔出)",difficulty:2,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e81 set value {id:81,text:"站在草方块上",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e82 set value {id:82,text:"站在石头上",difficulty:1,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e83 set value {id:83,text:"站在圆石上",difficulty:1,criteria:"进度",args:{onlycheck:0}}
@@ -125,7 +125,7 @@ execute store result storage ywsj:eventlist args.N.Total int 1 run scoreboard pl
     data modify storage ywsj:eventlist args.e110 set value {id:110,text:"击败一只史莱姆",difficulty:2,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e111 set value {id:111,text:"击败一只僵尸村民",difficulty:3,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e112 set value {id:112,text:"击败一只蜘蛛",difficulty:1,criteria:"进度",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e113 set value {id:113,text:"击败一个玩家",difficulty:1,criteria:"进度",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e113 set value {id:113,text:"击败一个玩家",difficulty:3,criteria:"进度",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e114 set value {id:114,text:"潜行移动5距离",difficulty:1,criteria:"minecraft.custom:minecraft.crouch_one_cm",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e115 set value {id:115,text:"摔落3距离",difficulty:1,criteria:"minecraft.custom:minecraft.fall_one_cm",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e116 set value {id:116,text:"打开1次木桶",difficulty:1,criteria:"minecraft.custom:minecraft.open_barrel",args:{onlycheck:0}}
@@ -137,7 +137,7 @@ execute store result storage ywsj:eventlist args.N.Total int 1 run scoreboard pl
     data modify storage ywsj:eventlist args.e122 set value {id:122,text:"坐船移动20距离",difficulty:1,criteria:"minecraft.custom:minecraft.boat_one_cm",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e123 set value {id:123,text:"骑马移动5距离",difficulty:3,criteria:"minecraft.custom:minecraft.horse_one_cm",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e124 set value {id:124,text:"攀爬10距离",difficulty:1,criteria:"minecraft.custom:minecraft.climb_one_cm",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e125 set value {id:125,text:"飞行10距离",difficulty:3,criteria:"minecraft.custom:minecraft.fly_one_cm",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e125 set value {id:125,text:"飞行10距离",difficulty:2,criteria:"minecraft.custom:minecraft.fly_one_cm",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e126 set value {id:126,text:"疾跑10距离",difficulty:1,criteria:"minecraft.custom:minecraft.sprint_one_cm",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e127 set value {id:127,text:"疾跑50距离",difficulty:1,criteria:"minecraft.custom:minecraft.sprint_one_cm",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e128 set value {id:128,text:"疾跑100距离",difficulty:1,criteria:"minecraft.custom:minecraft.sprint_one_cm",args:{onlycheck:0}}

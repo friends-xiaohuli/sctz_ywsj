@@ -15,4 +15,5 @@ execute as @a at @s run attribute @s entity_interaction_range base set 0
 
 
 tellraw @a [{"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n正在初始化请稍等...","color": "dark_red"}]
-schedule function ywsj:start/start_reset 1s
+tellraw @a [{"text": "【免责声明】：若添加有添加光影 此部分可能会导致光敏性癫痫","color": "dark_red"}]
+schedule function ywsj:start/start_reset 3s
