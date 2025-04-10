@@ -3,8 +3,9 @@
 #顺带注册事件个人计分板
 $scoreboard objectives remove e$(id) 
 $scoreboard objectives add e$(id) dummy
+
 #个人事件锁
-$scoreboard players set @s e$(id) -1
+$scoreboard players set @a e$(id) -1
 
 
 

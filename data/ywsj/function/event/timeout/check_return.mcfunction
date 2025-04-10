@@ -1,7 +1,7 @@
 
 
 #重置
-function ywsj:event/timeout/reset
+function ywsj:event/timeout/reset with storage ywsj:pre_eventlist args.now
 
 
 #当前是第几个事件

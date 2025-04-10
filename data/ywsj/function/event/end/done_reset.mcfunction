@@ -17,7 +17,7 @@ execute if score nowD event matches 4 run scoreboard players add F-extremely eve
 scoreboard players set nowD event -1
 
 #唯一循环写入
-$data modify storage ywsj:eventlist args.e$(id).args set value {olnycheck:1}
+$data modify storage ywsj:eventlist args.e$(id).args set value {onlycheck:1}
 
 #进度复原
 $advancement revoke @a only ywsj:e$(id)

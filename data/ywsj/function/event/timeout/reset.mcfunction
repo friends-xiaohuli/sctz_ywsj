@@ -8,3 +8,12 @@
 
 scoreboard players set s End 0
 
+
+
+
+
+#重置事件
+$scoreboard players set @a e$(id) -1
+$scoreboard players reset * $(id)
+
+

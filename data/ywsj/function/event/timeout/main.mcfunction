@@ -10,7 +10,3 @@ function ywsj:random/randoming with storage ywsj:eventlist args.N
 function ywsj:event/timeout/check with storage ywsj:pre_eventlist args.now.args
 
 
-
-execute if score Pstate event matches 1 run function ywsj:event/timeout/check_fail
-execute if score Pstate event matches 0 run function ywsj:event/timeout/check_return
-
