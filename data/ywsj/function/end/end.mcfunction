@@ -9,4 +9,4 @@ function ywsj:end/smh_time
 tellraw @a [{"selector":"@a[gamemode=survival]","color": "yellow","bold": true},{"text": "获得最后的胜利！","color": "green"}]
 # tellraw @a [{"text": "单局游戏总用时(tick)：","color": "green","bold": true},{"score":{"name":"time","objective":"time"},"bold": true,"color": "dark_red"}]
 tellraw @a [{"text": "单局游戏总用时：","color": "green","bold": true},{"score":{"name":"h","objective":"time"},"bold": true,"color": "dark_red"},{"text": ":","bold": true,"color": "dark_red"},{"score":{"name":"m","objective":"time"},"bold": true,"color": "dark_red"},{"text": ":","bold": true,"color": "dark_red"},{"score":{"name":"s","objective":"time"},"bold": true,"color": "dark_red"}]
-tellraw @a [{"text": "单局游戏事件总触发数：","color": "green","bold": true},{"score":{"name":"EN","objective":"event"},"bold": true,"color": "dark_red"}]
+tellraw @a [{"text": "单局游戏事件总触发数：","color": "green","bold": true},{"score":{"name":"Finished","objective":"event"},"bold": true,"color": "dark_red"}]
