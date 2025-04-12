@@ -22,4 +22,5 @@ $data modify storage ywsj:eventlist args.e$(id).args set value {onlycheck:1}
 #进度复原
 $advancement revoke @a only ywsj:e$(id)
 
-
+#锁定触发
+$scoreboard players set @a e$(id) -1
