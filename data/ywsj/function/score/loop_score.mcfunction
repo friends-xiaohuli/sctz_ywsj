@@ -1,6 +1,6 @@
 scoreboard players reset * score_show
 scoreboard players set §3by：霜澪是只白狐ya score_show -5
-scoreboard players set §4内部版本：1.21.4-V0.44.16.2-cs score_show -10
+scoreboard players set §4内部版本：1.21.4-V0.44.16.6-cs score_show -10
 scoreboard players set §4测试版本-严禁外传-仅供参考 score_show -15
 
 
