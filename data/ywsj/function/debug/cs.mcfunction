@@ -16,7 +16,7 @@ gamerule sendCommandFeedback true
 
 scoreboard players set morenum debug 1
 
-# scoreboard players set ecd game 0
+scoreboard players set ecd game 0
 scoreboard players set basic game 1
 
 scoreboard objectives setdisplay sidebar event
