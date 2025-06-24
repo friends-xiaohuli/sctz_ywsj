@@ -9,7 +9,7 @@ scoreboard players operation EN event += 1 numeral
 
 tellraw @a [{"text": "\n==[事件","color": "dark_red","bold": true},{"score":{"name":"EN","objective":"event"},"bold": true,"color": "dark_red"},{"text": " #","color": "red","bold": true},{"score":{"name":"time","objective":"time"},"bold": true,"color": "red"},{"text": "]==","color": "dark_red","bold": true}]
 title @a subtitle [{"text": "随机事件已触发...","color": "red"}]
-title @a title [{"text": ""}]
+# title @a title [{"text": ""}]
 
 #设置skip
 scoreboard players set skip skip_voting 1

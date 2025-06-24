@@ -9,3 +9,7 @@ $scoreboard players set @a e$(id) 0
 #设置输出
 $scoreboard players set now event $(id)
 $tellraw @a [{"text": "$(text)","color": "light_purple"}]
+
+
+#主标题
+$title @a title [{"text": "$(text)","color": "light_purple"}]
