@@ -143,7 +143,7 @@ execute store result storage ywsj:eventlist args.N.Total int 1 run scoreboard pl
     data modify storage ywsj:eventlist args.e128 set value {id:128,text:"疾跑100距离",difficulty:1,criteria:"minecraft.custom:minecraft.sprint_one_cm",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e129 set value {id:129,text:"游泳20距离",difficulty:1,criteria:"minecraft.custom:minecraft.swim_one_cm",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e130 set value {id:130,text:"游泳50距离",difficulty:1,criteria:"minecraft.custom:minecraft.swim_one_cm",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e131 set value {id:131,text:"30内不死亡",difficulty:1,criteria:"minecraft.custom:minecraft.time_since_death",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e131 set value {id:131,text:"坐矿车移动10距离",difficulty:1,criteria:"minecraft.custom:minecraft.minecart_one_cm",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e132 set value {id:132,text:"与村民交互1次",difficulty:2,criteria:"minecraft.custom:minecraft.talked_to_villager",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e133 set value {id:133,text:"击杀任意5个生物",difficulty:1,criteria:"minecraft.custom:minecraft.mob_kills",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e134 set value {id:134,text:"跳跃10次",difficulty:1,criteria:"minecraft.custom:minecraft.jump",args:{onlycheck:0}}

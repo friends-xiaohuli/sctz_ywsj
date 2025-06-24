@@ -22,7 +22,7 @@ execute as @a[scores={e127=0}] at @s if score @s 127 matches 5000.. run function
 execute as @a[scores={e128=0}] at @s if score @s 128 matches 10000.. run function ywsj:event/achieve
 execute as @a[scores={e129=0}] at @s if score @s 129 matches 2000.. run function ywsj:event/achieve
 execute as @a[scores={e130=0}] at @s if score @s 130 matches 5000.. run function ywsj:event/achieve
-execute as @a[scores={e131=0}] at @s if score @s 131 matches 600.. run function ywsj:event/achieve
+execute as @a[scores={e131=0}] at @s if score @s 131 matches 1000.. run function ywsj:event/achieve
 execute as @a[scores={e132=0}] at @s if score @s 132 matches 1.. run function ywsj:event/achieve
 execute as @a[scores={e133=0}] at @s if score @s 133 matches 5.. run function ywsj:event/achieve
 execute as @a[scores={e134=0}] at @s if score @s 134 matches 10.. run function ywsj:event/achieve

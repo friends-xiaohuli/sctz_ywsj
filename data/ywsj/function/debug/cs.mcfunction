@@ -40,3 +40,7 @@ scoreboard objectives setdisplay sidebar event
 # schedule function ywsj:event/set_event 2
 
 # #endregion
+
+
+
+data modify storage ywsj:eventlist args.e1.args.onlychck set value 1

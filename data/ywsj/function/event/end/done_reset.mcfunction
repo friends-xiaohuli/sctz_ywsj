@@ -6,7 +6,7 @@ execute if score mode mode matches 1 run title @a title [{"text": "独占模式!
 
 
 #事件完成 增加  用store result写入列表args
-execute store result storage ywsj:eventlist args.N.Finished int 1 run scoreboard players add Finished event 1
+execute if score nowD event matches 1..4 run execute store result storage ywsj:eventlist args.N.Finished int 1 run scoreboard players add Finished event 1
 
 execute if score nowD event matches 1 run scoreboard players add F-easy event 1
 execute if score nowD event matches 2 run scoreboard players add F-general event 1
@@ -23,3 +23,6 @@ $data modify storage ywsj:eventlist args.e$(id).args set value {onlycheck:1}
 $advancement revoke @a only ywsj:e$(id)
 
 
+#重置事件
+$scoreboard players set @a e$(id) -1
+$scoreboard players reset * $(id)

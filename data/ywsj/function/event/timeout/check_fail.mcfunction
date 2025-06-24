@@ -5,4 +5,5 @@ execute if score debug debug matches 1 run tellraw @a [{"text": "\n[DEBUG] #事�
 #重置检查状态
 scoreboard players set Pstate event 0
 
-schedule function ywsj:event/timeout/main 3
+schedule clear ywsj:event/timeout/check_return
+function ywsj:event/timeout/main

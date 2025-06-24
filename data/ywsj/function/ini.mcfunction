@@ -15,7 +15,10 @@ function ywsj:debug/ini
 function ywsj:mode/ini
 function ywsj:ifwater/ini
 function ywsj:xyz/ini
-function ywsj:trigger/ini
+
+function ywsj:trigger/res
+
+
 
 
 

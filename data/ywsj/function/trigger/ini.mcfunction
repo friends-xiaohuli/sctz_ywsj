@@ -1,11 +1,4 @@
 
-#重置
-scoreboard objectives remove stop
-scoreboard objectives remove recover
-scoreboard objectives remove skip_voting
-scoreboard objectives remove Agree_skip
-scoreboard objectives remove Refuse_skip
-scoreboard objectives remove Force_skip
 
 
 #暂停游戏
@@ -17,11 +10,15 @@ scoreboard objectives add recover trigger
 scoreboard objectives add skip_voting dummy
 scoreboard objectives add Agree_skip trigger
 scoreboard objectives add Refuse_skip trigger
-scoreboard players set refuse skip_voting 0
+
+scoreboard players set agree skip_voting 0
+scoreboard players set skip skip_voting 0
 
 #强制跳过
 scoreboard objectives add Force_skip trigger
 
+tag @a remove skip
+tag @a remove Fskip
 
 bossbar add stop {"text":"游戏已被暂停！","color": "#fa059c"}
 bossbar set stop color red

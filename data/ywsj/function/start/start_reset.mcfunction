@@ -37,6 +37,13 @@ scoreboard players set game game 0
 scoreboard players set sptime time 0
 
 
+#清理跳过
+scoreboard players set agree skip_voting 0
+scoreboard players set skip skip_voting 0
+
+tag @a remove skip
+tag @a remove Fskip
+
 #已完成总计清理
 scoreboard players set F-easy event 0
 scoreboard players set F-general event 0
