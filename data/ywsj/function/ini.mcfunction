@@ -24,4 +24,4 @@ function ywsj:trigger/res
 
 
 
-schedule function ywsj:debug/cs 3s
+# schedule function ywsj:debug/cs 3s
