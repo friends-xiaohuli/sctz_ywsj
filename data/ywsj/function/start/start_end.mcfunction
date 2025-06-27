@@ -12,12 +12,12 @@ time set day
 weather clear
 scoreboard players reset * dc
 clear @a
-effect give @a slowness 6 255
-effect give @a resistance 6 255
-effect give @a invisibility 6 255
-effect give @a saturation 6 255
-effect give @a water_breathing 6 255
-effect give @a mining_fatigue 6 255
+effect give @a slowness 6 255 true
+effect give @a resistance 6 255 true
+effect give @a invisibility 6 255 true
+effect give @a saturation 6 255 true
+effect give @a water_breathing 6 255 true
+effect give @a mining_fatigue 6 255 true
 title @a title [{"text": "游戏即将开始..","bold": true,"color": "dark_purple"}]
 function ywsj:set/set_tell
 function ywsj:set/set_tell_player

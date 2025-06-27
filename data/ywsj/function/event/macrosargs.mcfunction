@@ -168,7 +168,7 @@ execute store result storage ywsj:eventlist args.N.Total int 1 run scoreboard pl
     data modify storage ywsj:eventlist args.e153 set value {id:153,text:"与烟熏炉交互1次",difficulty:1,criteria:"minecraft.custom:minecraft.interact_with_smoker",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e154 set value {id:154,text:"与切石机交互1次",difficulty:1,criteria:"minecraft.custom:minecraft.interact_with_stonecutter",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e155 set value {id:155,text:"将任意植物种进花盆",difficulty:1,criteria:"minecraft.crafted:light_weighted_pressure_plate",args:{onlycheck:0}}
-    data modify storage ywsj:eventlist args.e156 set value {id:156,text:"合成一个轻质测重压力板",difficulty:1,criteria:"minecraft.crafted:heavy_weighted_pressure_plate",args:{onlycheck:0}}
+    data modify storage ywsj:eventlist args.e156 set value {id:156,text:"合成一个轻质测重压力板",difficulty:1,criteria:"minecraft.crafted:light_weighted_pressure_plate",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e157 set value {id:157,text:"合成一个重质测重压力板",difficulty:1,criteria:"minecraft.crafted:heavy_weighted_pressure_plate",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e158 set value {id:158,text:"制作一个粗铁",difficulty:1,criteria:"minecraft.crafted:raw_iron",args:{onlycheck:0}}
     data modify storage ywsj:eventlist args.e159 set value {id:159,text:"挖掘一个粗铁块",difficulty:1,criteria:"minecraft.mined:raw_iron_block",args:{onlycheck:0}}

@@ -1,11 +1,11 @@
 effect clear @a
-effect give @a blindness 99999 255
-effect give @a resistance 99999 255
-effect give @a invisibility 99999 255
-effect give @a night_vision 99999 255
-effect give @a regeneration 99999 255
-effect give @a saturation 99999 255
-effect give @a water_breathing 99999 255
+effect give @a blindness infinite 255 true
+effect give @a resistance infinite 255 true
+effect give @a invisibility infinite 255 true
+effect give @a night_vision infinite 255 true
+effect give @a regeneration infinite 255 true
+effect give @a saturation infinite 255 true
+effect give @a water_breathing infinite 255 true
 execute as @a at @s run attribute @s jump_strength base set 0
 execute as @a at @s run attribute @s movement_speed base set 0
 execute as @a at @s run attribute @s block_break_speed base set 0
