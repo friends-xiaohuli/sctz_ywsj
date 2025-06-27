@@ -1,3 +1,3 @@
-execute if score dim game matches 1 run execute as @a[team=player] at @s run execute if score @s dim matches ..1 run execute if items entity @s inventory.* minecraft:diamond[minecraft:item_name] run function ywsj:mode/isdiamond/onediam
-execute if score dim game matches 1 run execute as @a[team=player] at @s run execute if score @s dim matches ..1 run execute if items entity @s hotbar.* minecraft:diamond[minecraft:item_name] run function ywsj:mode/isdiamond/onediam
+execute if score dim game matches 1 run execute as @a[team=player] at @s run execute if score @s dim matches ..1 run execute if items entity @s inventory.* minecraft:diamond[minecraft:custom_data] run function ywsj:mode/isdiamond/onediam
+execute if score dim game matches 1 run execute as @a[team=player] at @s run execute if score @s dim matches ..1 run execute if items entity @s hotbar.* minecraft:diamond[minecraft:custom_data] run function ywsj:mode/isdiamond/onediam
 execute if score dim game matches 1 run execute as @a[team=player] at @s run execute if score @s dim matches 1.. run scoreboard players remove @s dim 1

@@ -22,6 +22,8 @@ scoreboard players set basic game 1
 scoreboard objectives setdisplay sidebar event
 
 
+
+
 #region伪任务测试（需开始游戏）
 
 # scoreboard objectives setdisplay sidebar 168

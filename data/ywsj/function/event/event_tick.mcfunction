@@ -60,4 +60,6 @@ execute as @a[scores={e165=0}] at @s if score @s 165 matches 1.. run function yw
 execute as @a[scores={e166=0}] at @s if score @s 166 matches 1.. run function ywsj:event/achieve
 execute as @a[scores={e167=0}] at @s if score @s 167 matches 1.. run function ywsj:event/achieve
 execute as @a[scores={e168=0}] at @s if score @s 168 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e185=0}] at @s if score @s 185 matches 1.. run function ywsj:event/achieve
+execute as @a[scores={e186=0}] at @s if score @s 186 matches 64.. run function ywsj:event/achieve
 

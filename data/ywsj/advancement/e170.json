@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "event169": {
+    "event170": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
         "player": [
@@ -8,12 +8,12 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "e169": 0
+              "e170": 0
             }
           }
         ],
         "item": {
-          "items": "#minecraft:dyeable"
+          "items": "minecraft:kelp"
         }
       }
     }

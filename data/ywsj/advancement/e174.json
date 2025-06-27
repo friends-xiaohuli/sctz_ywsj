@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "e38": {
+    "e174": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "e38": 0
+              "e174": 0
             }
           },
           {
@@ -17,9 +17,7 @@
             "predicate": {
               "stepping_on": {
                 "block": {
-                  "blocks": [
-                    "minecraft:bedrock"
-                  ]
+                  "blocks": "#minecraft:copper_ores"
                 }
               }
             }

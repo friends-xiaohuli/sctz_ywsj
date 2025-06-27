@@ -4,7 +4,7 @@ scoreboard objectives remove event
 scoreboard objectives add event dummy
 
 #事件编号最大值（从0开始）
-scoreboard players set MaxN event 169
+scoreboard players set MaxN event 188
 #预处理
 scoreboard players set preN event 0
 
